@@ -19,14 +19,14 @@ Table of contents
 ## A Glance at the ADC IP
 
 The  Design Specifications of the ADC IP can be found [here](/Documentation/Specifications.pdf).
-<p>
+
 The SAR ADC is built using 5 important blocks:
 1. Anti-Aliasing Filter
 2. Sample and Hold
 3. Comparator
 4. SAR
-4. [DAC](https://github.com/sherylcorina/R2R_DAC)
-</p>
+4. [DAC]((https://github.com/sherylcorina/R2R_DAC).
+
 
 ## Block Diagram of the SAR ADC IP
 
