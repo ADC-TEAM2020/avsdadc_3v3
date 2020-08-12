@@ -1,0 +1,23 @@
+* Sample & Hold Circuit
+
+X1 1 0 in clk1 out_sam sample
+
+*****************************************
+.include osu018.lib
+.include sample.lib
+
+******************************************
+V_a 1 0 3.3v
+Vin in 0 sine(1.65V 1.65 8k)
+V_clk clk1 0 PULSE(0 1.8 1n 1n 1n 6u 12u)
+*************************************
+.tran 1ns 400u
+.control
+run
+plot V(in) V(out_sam)
+plot V(clk1)
+.end
+
+
+
+
