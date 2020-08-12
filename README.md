@@ -82,13 +82,26 @@ $  cd SAR_ADC/Simulation/PreLayout_v1.0/
 ```
 
 
-# change this
-### Transfer Curve of the R-2R DAC [0-1023]
+### DC Analysis of SAR ADC [INPUT RANGE 0-3.3]
+
+
+```
+ Open the sar_adc.cir file and enter the your input voltage as shown in the image below.
+```
+ <p align="center">
+  <img width="750" height="100" src="/Images/input.png">
+</p>
 
 Run the netlist file using the following command.
 
 ```
 $  ngspice sar_adc.cir
+```
+Observe the corresponding Digital Output
+
+```
+Vin = 2000mV
+Digital Code= 1001101101 (621)
 ```
 
 
