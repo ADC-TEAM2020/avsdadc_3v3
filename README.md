@@ -89,7 +89,7 @@ $  cd SAR_ADC/Simulation/PreLayout_v1.0/
 
 
 ```
- Open the sar_adc.cir file and enter the your input voltage as shown in the image below.
+ Open the sar_adc.cir file and enter the input voltage [0V-3.3V] as shown in the image below.
 ```
  <p align="center">
   <img width="750" height="100" src="/Images/input.png">
@@ -110,6 +110,7 @@ Digital Code= 1001101101 (621)
 
 ## Issues | Improvements | Future Work
 
+1. DNL error for lower digital codes needs to be reduced.
 1. Sample & Hold must be optimized to improve hold capabilty.
 2. Comparator design should be modified to reduce Deadband and Offset.
 3. Opamp to be used in DAC must be optimized to give a better transient response and higher Bandwidth.
