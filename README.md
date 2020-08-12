@@ -100,7 +100,7 @@ Run the netlist file using the following command.
 ```
 $  ngspice sar_adc.cir
 ```
-Observe the corresponding Digital Output
+Observe the corresponding Digital Output when EOC[End-of-Conversion Signal] is HIGH between 11.5us -12.0us
 
 ```
 Vin = 2000mV
