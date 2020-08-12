@@ -104,7 +104,7 @@ Observe the corresponding Digital Output
 
 ```
 Vin = 2000mV
-Digital Code= 1001101111 (623)
+Digital Code= 1001101101 (621)
 ```
  <p align="center">
   <img width="1000" height="200" src="/Images/ADC_v1.0/clk.png">
