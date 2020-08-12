@@ -8,6 +8,8 @@ Table of contents
 =================
 <!--ts-->
   
+   * [A Glance at the ADC IP](#a-glance-at-the-adc-ip)
+   * [Block Diagram of the SAR ADC IP](#block-diagram-of-the-sar-adc-ip)
    * [About Ngspice](#about-ngspice)
    * [Running the Simulation](#running-the-simulation)
    * [Pre-Layout Simulation](#pre-layout-simulation)
