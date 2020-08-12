@@ -114,6 +114,8 @@ Digital Code= 1001101101 (621)
 2. Comparator design should be modified to reduce Deadband and Offset.
 3. Opamp to be used in DAC must be optimized to give a better transient response and higher Bandwidth.
 4. The no. of transistors used in the SAR must be reduced.
+5. Anti-Aliasing Filter yet to be designed.
+
 
 ## Contributors 
 
