@@ -22,9 +22,9 @@ The  Design Specifications of the ADC IP can be found [here](/Documentation/Spec
 
 The SAR ADC is built using 5 important blocks:
 1. Anti-Aliasing Filter
-2. Sample and Hold
-3. Comparator
-4. SAR
+2. [Sample and Hold](https://github.com/uday2012/sample_hold)
+3. [Comparator](https://github.com/mou3ananya/prelayoutWork)
+4. [SAR](https://github.com/shalini161/SAR_Logic)
 4. [DAC](https://github.com/sherylcorina/R2R_DAC)
 
 
@@ -107,14 +107,17 @@ Digital Code= 1001101101 (621)
 
 ## Issues | Improvements | Future Work
 
-1.  
+1. Sample & Hold must be optimized to improve hold capabilty.
+2. Comparator design should be modified to reduce Deadband and Offset.
+3. Opamp to be used in DAC must be optimized to give a better transient response and higher Bandwidth.
+4. The no. of transistors used in the SAR must be reduced.
 
 ## Contributors 
 
 - **Sheryl Serrao** 
-- **Ananya**
-- **Shalini**
-- **Uday**
+- **Ananya Ghorai**
+- **Shalini  Priya**
+- **Uday Vempalli**
 - **Kunal Ghosh** 
 
 
@@ -129,8 +132,8 @@ Digital Code= 1001101101 (621)
 ## Contact Information
 
 - Sheryl Serrao, Undergraduate Student, Mumbai University sherylcorina@gmail.com
-- Ananya
-- Shalini
-- Uday
+- Ananya Ghorai, Pursuing M.Tech in VLSI Design, IIT(ISM) Dhanbad, ananyaghorai.2012@gmail.com
+- Shalini Priya, M.Tech Embedded System, NIT Jamshedpur priyashalini161@gmail.com
+- Uday Vempalli, Undergraduate Student,Siddhartha Institute Of Technology,udayvempalli99@gmail.com
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 - Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
