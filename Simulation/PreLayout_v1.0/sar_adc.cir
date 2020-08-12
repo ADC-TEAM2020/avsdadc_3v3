@@ -186,18 +186,11 @@ Vin in 0 2000mV
 .control
 run
 plot V(SOC) V(EOC) V(in)
-
-plot V(D9)
-plot V(D8)
-plot V(D7)
-plot V(D6)
-plot V(D7)
-plot V(D5)
-plot V(D4)
-plot V(D3)
-plot V(D2)
-plot V(D1)
-plot V(D0)
+plot V(D9) V(D8)
+plot V(D7) V(D6)
+plot V(D5) V(D4)
+plot V(D3) V(D2)
+plot V(D1) V(D0)
 
 .endc
 .end
