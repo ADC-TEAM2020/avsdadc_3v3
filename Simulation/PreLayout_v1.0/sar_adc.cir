@@ -2,7 +2,7 @@
 .include osu018.lib
 *****************************************
 .subckt sample 1 0 in clk1 out
-M1 in cabr out 1 pfet l=0.2u w=2u
+M1 in cbar out 1 pfet l=0.2u w=2u
 M2 in clk1 out 0 nfet l=0.2u w=1u
 M3 cbar clk1 1 1 pfet l=0.2u w=2u
 M4 cbar clk1 0 0 nfet l=0.2u w=1u
