@@ -106,6 +106,31 @@ Observe the corresponding Digital Output
 Vin = 2000mV
 Digital Code= 1001101101 (621)
 ```
+ <p align="center">
+  <img width="900" height="200" src="/Images/ADC_v1.0/clk.png">
+</p>
+ <p align="center">
+  <img width="900" height="200" src="/Images/ADC_v1.0/eoc.png">
+</p>
+
+ <p align="center">
+  <img width="900" height="200" src="/Images/ADC_v1.0/d8_d9.png">
+</p>
+ <p align="center">
+  <img width="900" height="200" src="/Images/ADC_v1.0/d6_d7.png">
+</p>
+ <p align="center">
+  <img width="900" height="200" src="/Images/ADC_v1.0/d4_d5.png">
+</p>
+ <p align="center">
+  <img width="900" height="200" src="/Images/ADC_v1.0/d2_d3.png">
+</p>
+ <p align="center">
+  <img width="900" height="200" src="/Images/ADC_v1.0/d0_d1.png">
+</p>
+
+
+
 
 
 ## Issues | Improvements | Future Work
