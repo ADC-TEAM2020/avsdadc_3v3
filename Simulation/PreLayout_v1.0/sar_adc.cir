@@ -185,6 +185,7 @@ Vin in 0 2000mV
 .tran 1u 15u
 .control
 run
+plot V(clk)
 plot V(SOC) V(EOC) V(in)
 plot V(D9) V(D8)
 plot V(D7) V(D6)
