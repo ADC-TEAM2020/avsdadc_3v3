@@ -139,7 +139,7 @@ Digital Code= 1001101101 (621)
 1. Sample & Hold must be optimized to improve hold capabilty.
 2. Comparator design should be modified to reduce Deadband and Offset.
 3. Opamp to be used in DAC must be optimized to give a better transient response and higher Bandwidth.
-4. The no. of transistors used in the SAR must be reduced.
+4. The number of transistors used in a SAR logic must be reduced. The Non-Redundant Successive Approximation Register architecture, which requires only 'N' D flip flops    for N-bit conversion, can be employed for this.
 5. Anti-Aliasing Filter yet to be designed.
 
 
