@@ -3,8 +3,6 @@ This repository will maintain simulation files and other relevant files of the S
 
 *Note: Circuit requires further optimization to improve performance. Design yet to be modified.*
 
-# WARNING!: HIGHLY INCOMPLETE, WILL BE UPDATED SOON
-
 Table of contents
 =================
 <!--ts-->
