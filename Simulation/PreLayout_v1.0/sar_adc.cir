@@ -185,14 +185,9 @@ Vin in 0 2000mV
 .tran 1u 15u
 .control
 run
-plot V(clk)
-plot V(SOC) V(EOC) V(in)
-plot V(D9) V(D8)
-plot V(D7) V(D6)
-plot V(D5) V(D4)
-plot V(D3) V(D2)
-plot V(D1) V(D0)
 
+plot V(D0) V(D1)+2 V(D2)+4 V(D3)+6 V(D4)+8 V(D5)+10 V(D6)+12 V(D7)+14 V(D8)+16 V(D9)+18 V(EOC)+20 V(SOC)+22 V(clk)+24
+set color0=white
 .endc
 .end
 
