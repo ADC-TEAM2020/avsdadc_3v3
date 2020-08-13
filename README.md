@@ -12,7 +12,7 @@ Table of contents
    * [About Ngspice](#about-ngspice)
    * [Running the Simulation](#running-the-simulation)
    * [Pre-Layout Simulation](#pre-layout-simulation)
-   * [Table of some Analog i/p voltages and corresponding Digital Code | DNL curve](#table-of-some-analog-i/p-voltages-and-corresponding-digital-code--dnl-curve)[here](/Documentation/DNL.pdf).
+   * Table of some Analog i/p voltages and corresponding Digital Codes | DNL curve[here](/Documentation/DNL.pdf).
    * [Issues | Improvements | Future Work](#issues--improvements--future-work)
    * [Acknowledgments](#acknowledgments)
    * [Contact Information](#contact-information)
