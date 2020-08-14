@@ -142,11 +142,13 @@ Ensure the repository is clone, and enter the following commands in your termina
 $  sudo apt-get install -y gnuplot
 $  cd SAR_ADC/Simulation/PreLayout_v1.0/DNL/
 $  gnuplot
+```
+```
 gnuplot> load 'dnl.p'
 ```
 
  <p align="center">
-  <img width="1000" height="200" src="/Images/dnl1.png">
+  <img width="1000" height="800" src="/Images/dnl1.png">
 </p>
 
 
