@@ -105,7 +105,7 @@ Vin = 2000mV
 Digital Code= 1001101101 (621)
 ```
  <p align="center">
-  <img width="1000" height="800" src="/Images/sar1.png">
+  <img width="1000" height="1000" src="/Images/sar1.png">
 </p>
 
  <p align="center">
@@ -131,7 +131,23 @@ Digital Code= 1001101101 (621)
   <img width="1000" height="200" src="/Images/ADC_v1.0/d0_d1.png">
 </p>
 
+
+### DNL Errors for Digital Codes [621-660]
+
 **The DNL errors for digital codes (621-660) can be found [here](/Documentation/DNL.pdf)**
+
+Ensure the repository is clone, and enter the following commands in your terminal to plot the DNL curve.
+
+```
+$  sudo apt-get install -y gnuplot
+$  cd SAR_ADC/Simulation/PreLayout_v1.0/DNL/
+$  gnuplot
+gnuplot> load 'dnl.p'
+```
+
+ <p align="center">
+  <img width="1000" height="200" src="/Images/dnl1.png">
+</p>
 
 
 ## Issues | Improvements | Future Work
@@ -140,7 +156,7 @@ Digital Code= 1001101101 (621)
 1. Sample & Hold must be optimized to improve hold capabilty.
 2. Comparator design should be modified to reduce Deadband and Offset.
 3. Opamp to be used in DAC must be optimized to give a better transient response and higher Bandwidth.
-4. The number of transistors used in a SAR logic must be reduced. The Non-Redundant Successive Approximation Register architecture, which requires only 'N' D flip flops    for N-bit conversion, can be employed for this.
+4. The number of transistors used in a SAR logic must be reduced. The Non-Redundant Successive Approximation Register architecture, which requires only 'N' D flip flops for N-bit conversion, can be employed for this.
 5. Anti-Aliasing Filter yet to be designed.
 
 
