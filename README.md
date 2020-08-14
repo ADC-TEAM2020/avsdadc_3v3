@@ -148,7 +148,7 @@ gnuplot> load 'dnl.p'
 ```
 
  <p align="center">
-  <img width="1200" height="400" src="/Images/dnl1.png">
+  <img width="1200" height="400" src="/Images/dnl2.png">
 </p>
 
 
