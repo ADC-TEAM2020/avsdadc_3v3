@@ -172,22 +172,17 @@ V_clk clk 0 PULSE(0 1.8 1n 1n 1n 0.25u 0.5u)
 *************************************
 *Vin in 0 SINE(1.65v 1.65v 5k)
 
-
-
 *********CHANGE INPUT HERE*************
 
 Vin in 0 2000mV
 *************************************
-
-
-
 
 .tran 1u 15u
 .control
 run
 
 plot V(D0) V(D1)+2 V(D2)+4 V(D3)+6 V(D4)+8 V(D5)+10 V(D6)+12 V(D7)+14 V(D8)+16 V(D9)+18 V(EOC)+20 V(SOC)+22 V(clk)+24
-set color0=white
+*set color0=white
 .endc
 .end
 
