@@ -178,7 +178,7 @@ gnuplot> load 'dnl.p'
 ### Layout of SAR Logic
 
  <p align="center">
-  <img width="400" height="550" src="/Images/L/sar1.png">
+  <img width="1000" height="400" src="/Images/L/sar1.png">
 </p>
 
 
