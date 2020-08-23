@@ -152,6 +152,36 @@ gnuplot> load 'dnl.p'
 </p>
 
 
+## Layout
+
+**Note: Complete Layout of SAR ADC will be updated soon**
+
+### Layout of Sample and Hold Circuit
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/L/sample1.png">
+</p>
+
+### Layout of Comparator
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/L/comp1.png">
+</p>
+
+### Layout of R-2R DAC
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/L/dac1.png">
+</p>
+
+
+### Layout of SAR Logic
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/L/sar1.png">
+</p>
+
+
 ## Issues | Improvements | Future Work
 
 1. DNL error for lower digital codes needs to be reduced.
