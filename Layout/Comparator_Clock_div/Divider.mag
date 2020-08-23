@@ -1,0 +1,178 @@
+magic
+tech scmos
+timestamp 1598101550
+<< nwell >>
+rect -68 113 -62 115
+rect 159 113 170 115
+rect 392 113 411 115
+rect 633 113 653 115
+rect -296 107 -286 113
+rect -74 107 -59 113
+rect 153 107 174 113
+rect 386 107 415 113
+rect 627 107 657 113
+rect -68 78 -62 107
+rect 159 78 170 107
+rect 392 78 411 107
+rect 633 78 653 107
+<< psubstratepcontact >>
+rect -519 8 -515 12
+<< metal1 >>
+rect -296 107 -286 113
+rect -74 107 -59 113
+rect 153 107 174 113
+rect 386 107 415 113
+rect 627 107 657 113
+rect -509 61 -505 70
+rect -303 61 -299 75
+rect -296 61 -295 64
+rect -287 61 -283 70
+rect -77 65 -73 76
+rect -60 61 -56 70
+rect 150 65 154 76
+rect 174 70 176 74
+rect 383 65 387 76
+rect 624 65 628 77
+rect 154 61 161 65
+rect 624 61 635 65
+rect -519 57 -509 61
+rect -292 57 -285 61
+rect -66 57 -56 61
+rect -519 13 -515 57
+rect -299 49 -295 53
+rect -300 44 -296 49
+rect -289 47 -288 51
+rect -77 44 -73 53
+rect -296 40 -286 44
+rect -77 40 -60 44
+rect 150 42 154 53
+rect 157 44 161 61
+rect 164 57 173 61
+rect 395 57 414 61
+rect 383 44 387 49
+rect 157 40 173 44
+rect 383 40 414 44
+rect 624 39 628 53
+rect 631 51 635 61
+rect 656 61 660 70
+rect 631 50 660 51
+rect 631 47 656 50
+rect 657 40 660 43
+rect -292 13 -288 14
+rect -521 12 -509 13
+rect -521 8 -519 12
+rect -515 8 -509 12
+rect -521 7 -509 8
+rect -297 7 -287 13
+rect -282 7 -281 26
+rect -70 13 -66 14
+rect 161 13 165 20
+rect 401 13 405 18
+rect 646 13 650 14
+rect -74 7 -59 13
+rect 148 7 178 13
+rect 386 7 414 13
+rect 627 7 656 13
+<< m2contact >>
+rect 170 70 174 74
+rect 410 70 414 74
+rect -285 57 -281 61
+rect -70 57 -66 61
+rect -510 47 -506 51
+rect -288 47 -284 51
+rect -61 47 -57 51
+rect -300 40 -296 44
+rect -77 36 -73 40
+rect 150 38 154 42
+rect 172 47 176 51
+rect 413 47 417 51
+rect 383 36 387 40
+rect 656 57 660 61
+rect 653 40 657 44
+rect 624 35 628 39
+rect -292 14 -288 18
+rect 161 20 165 24
+rect -70 14 -66 18
+rect 401 18 405 22
+rect 646 14 650 18
+<< metal2 >>
+rect 170 67 174 70
+rect 410 66 414 70
+rect -288 57 -285 61
+rect 650 57 656 61
+rect -515 47 -510 51
+rect -515 7 -511 47
+rect -300 7 -296 40
+rect -292 37 -288 51
+rect -70 47 -66 57
+rect -292 33 -281 37
+rect -292 18 -288 23
+rect -515 3 -296 7
+rect -285 7 -281 33
+rect -77 7 -73 36
+rect -70 18 -66 20
+rect -285 3 -73 7
+rect -61 7 -57 47
+rect 150 7 154 38
+rect 161 24 165 33
+rect 172 7 176 47
+rect 383 7 387 36
+rect 401 22 405 28
+rect -61 3 165 7
+rect 172 3 387 7
+rect 413 7 417 47
+rect 624 7 628 35
+rect 646 18 650 27
+rect 413 3 628 7
+rect 161 -1 165 3
+rect 653 -1 657 40
+rect 161 -5 657 -1
+<< m3contact >>
+rect 170 63 174 67
+rect 410 62 414 66
+rect -292 57 -288 61
+rect 646 57 650 61
+rect -292 23 -288 27
+rect -70 20 -66 24
+rect 161 33 165 37
+rect 401 28 405 32
+rect 646 27 650 31
+<< metal3 >>
+rect -292 27 -288 57
+rect -70 24 -66 51
+rect 170 37 174 63
+rect 165 33 174 37
+rect 410 32 414 62
+rect 405 28 414 32
+rect 646 31 650 57
+use dffsr  dffsr_0
+timestamp 1597999042
+transform 1 0 -474 0 1 10
+box -38 -3 184 105
+use dffsr  dffsr_1
+timestamp 1597999042
+transform 1 0 -252 0 1 10
+box -38 -3 184 105
+use dffsr  dffsr_2
+timestamp 1597999042
+transform 1 0 -25 0 1 10
+box -38 -3 184 105
+use dffsr  dffsr_3
+timestamp 1597999042
+transform 1 0 208 0 1 10
+box -38 -3 184 105
+use dffsr  dffsr_4
+timestamp 1597999042
+transform 1 0 449 0 1 10
+box -38 -3 184 105
+use dffsr  dffsr_5
+timestamp 1597999042
+transform 1 0 691 0 1 10
+box -38 -3 184 105
+<< labels >>
+rlabel metal1 -301 73 -301 73 1 Q0
+rlabel metal1 -75 74 -75 74 1 Q1
+rlabel metal1 152 74 152 74 1 Q2
+rlabel metal1 385 73 385 73 1 Q3
+rlabel metal1 626 74 626 74 1 clk1
+<< end >>

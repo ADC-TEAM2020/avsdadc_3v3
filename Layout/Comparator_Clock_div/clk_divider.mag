@@ -1,0 +1,63 @@
+magic
+tech scmos
+timestamp 1598113296
+<< nwell >>
+rect -103 -63 -99 -45
+<< metal1 >>
+rect -245 9 -242 13
+rect 56 -2 59 2
+rect 108 -1 122 3
+rect -563 -96 -558 -93
+rect -559 -100 -558 -96
+<< m2contact >>
+rect -249 9 -245 13
+rect -191 5 -187 9
+rect 52 -2 56 2
+rect 73 1 77 5
+rect -211 -8 -207 -4
+rect 139 -93 143 -89
+rect -563 -100 -559 -96
+rect -332 -97 -328 -93
+<< metal2 >>
+rect -249 -30 -245 9
+rect -344 -34 -245 -30
+rect -211 -30 -207 -8
+rect -191 -22 -187 5
+rect 52 -30 56 -2
+rect 73 -2 77 1
+rect -211 -34 56 -30
+rect 77 -34 143 -30
+rect -572 -96 -568 -74
+rect -344 -82 -340 -34
+rect -103 -81 -99 -34
+rect -332 -93 -328 -89
+rect 139 -89 143 -34
+rect -572 -100 -563 -96
+rect -559 -100 -558 -96
+<< m3contact >>
+rect -191 -26 -187 -22
+rect 73 -6 77 -2
+rect 73 -34 77 -30
+rect -572 -74 -568 -70
+rect -332 -89 -328 -85
+<< metal3 >>
+rect -191 -35 -187 -26
+rect 73 -30 77 -6
+rect -572 -39 -187 -35
+rect -572 -70 -568 -39
+rect -332 -85 -328 -39
+use AND  AND_0
+timestamp 1598105780
+transform 1 0 -221 0 1 -9
+box -24 -6 48 40
+use OR  OR_0
+timestamp 1598111140
+transform 1 0 75 0 1 -3
+box -29 -22 37 32
+use Divider  Divider_0
+timestamp 1598101550
+transform 1 0 -727 0 1 -154
+box -521 -5 875 115
+<< labels >>
+rlabel metal1 119 1 119 1 1 CLK_OUT
+<< end >>

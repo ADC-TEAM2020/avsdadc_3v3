@@ -1,0 +1,37 @@
+* SPICE3 file created from c1.ext - technology: scmos
+
+.option scale=0.1u
+
+M1000 a_8_n33# CLK 0 0 nfet w=10 l=2
++  ad=60 pd=32 as=60 ps=32
+M1001 in a_8_n33# out_sam 1 pfet w=20 l=2
++  ad=120 pd=52 as=120 ps=52
+M1002 a_8_n33# CLK 1 1 pfet w=20 l=2
++  ad=120 pd=52 as=120 ps=52
+M1003 in CLK out_sam 0 nfet w=10 l=2
++  ad=60 pd=32 as=60 ps=32
+
+
+
+****MANUALLY ADDING CAP
+
+C_sam out_sam 0 1p
+
+.include osu018.lib
+
+Vdd 1 0 3.3
+
+
+Vin in 0 sine(1.65 1.65 5k)
+
+Vclk CLK 0 pulse(0 1.8 1n 1n 1n 6u 12u)
+
+
+.tran 1u 100u
+.control
+
+run
+plot V(in) 
+plot V(out_sam)
+.endc
+.end

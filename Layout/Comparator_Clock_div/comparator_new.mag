@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1598172390
+<< nwell >>
+rect 53 71 61 75
+<< psubstratepcontact >>
+rect 53 33 57 37
+rect -20 18 -16 22
+rect -7 18 -3 22
+rect 7 18 11 22
+rect 19 18 23 22
+<< nsubstratencontact >>
+rect 53 71 57 75
+<< metal1 >>
+rect 57 71 61 75
+rect -16 50 33 54
+rect 61 50 67 54
+rect -21 18 -20 22
+rect -16 18 -7 22
+rect -3 18 7 22
+rect 11 18 19 22
+rect 23 18 27 37
+rect 57 33 61 37
+use Comparator  Comparator_0
+timestamp 1597918584
+transform 1 0 -43 0 1 3
+box -39 -1 60 95
+use Inverter  Inverter_0
+timestamp 1598172011
+transform 1 0 50 0 1 53
+box -26 -20 11 25
+use Inverter  Inverter_1
+timestamp 1598172011
+transform 1 0 84 0 1 53
+box -26 -20 11 25
+<< end >>

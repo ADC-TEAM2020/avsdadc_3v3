@@ -1,0 +1,139 @@
+* SPICE3 file created from ddd.ext - technology: scmos
+
+.option scale=0.1u
+
+M1000 a_281_85# a_316_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=1032 ps=596
+R0 a_241_n99# a_241_n15# nwellResistor w=12 l=78
+M1001 a_53_n215# a_51_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=2400 ps=920
+M1002 a_106_n215# a_104_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+R1 a_81_n15# a_61_n15# nwellResistor w=12 l=78
+M1003 a_n53_n215# a_n55_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+R2 a_21_1# a_41_n15# nwellResistor w=12 l=78
+R3 a_321_n99# a_321_n15# nwellResistor w=12 l=78
+M1004 a_0_n215# a_n2_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+R4 a_281_n15# a_281_85# nwellResistor w=12 l=78
+R5 a_101_1# a_141_n15# nwellResistor w=12 l=78
+M1005 a_n53_n215# a_n55_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+M1006 a_53_n215# a_51_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+R6 a_361_n15# a_361_85# nwellResistor w=12 l=78
+M1007 a_n2_n218# d8 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=720 ps=360
+R7 a_101_1# a_61_n15# nwellResistor w=12 l=78
+R8 a_41_n15# a_0_n215# nwellResistor w=12 l=78
+R9 a_181_1# a_221_n15# nwellResistor w=12 l=78
+M1008 a_n2_n218# d8 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+R10 a_261_1# a_301_n15# nwellResistor w=12 l=78
+R11 a_1_n16# out_dac nwellResistor w=12 l=78
+R12 a_161_n15# a_141_n15# nwellResistor w=12 l=78
+R13 a_241_n15# a_221_n15# nwellResistor w=12 l=78
+R14 a_101_1# a_121_n15# nwellResistor w=12 l=78
+R15 a_321_n15# a_301_n15# nwellResistor w=12 l=78
+R16 a_341_1# 0 nwellResistor w=12 l=78
+M1009 a_263_n218# d3 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+R17 a_n53_n215# a_1_n16# nwellResistor w=12 l=78
+R18 a_181_1# a_201_n15# nwellResistor w=12 l=78
+M1010 a_263_n218# d3 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+R19 a_261_1# a_281_n15# nwellResistor w=12 l=78
+M1011 a_422_n218# d0 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1012 a_210_n218# d4 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1013 a_369_n218# d1 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+R20 a_121_n15# a_106_n215# nwellResistor w=12 l=78
+M1014 a_157_n218# d5 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1015 a_422_n218# d0 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+R21 a_201_n15# a_201_85# nwellResistor w=12 l=78
+R22 a_53_n215# a_81_n15# nwellResistor w=12 l=78
+R23 a_341_1# a_361_n15# nwellResistor w=12 l=78
+M1016 a_241_n99# a_263_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+M1017 a_157_n218# d5 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+M1018 a_210_n218# d4 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+M1019 a_369_n218# d1 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+M1020 a_316_n218# d2 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1021 a_104_n218# d6 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1022 a_201_85# a_210_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+M1023 a_321_n99# a_369_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+M1024 a_361_85# a_422_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+M1025 a_316_n218# d2 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+R24 a_181_1# a_141_n15# nwellResistor w=12 l=78
+M1026 a_159_n215# a_157_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+M1027 a_104_n218# d6 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+M1028 a_241_n99# a_263_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+R25 a_261_1# a_221_n15# nwellResistor w=12 l=78
+R26 a_341_1# a_301_n15# nwellResistor w=12 l=78
+M1029 a_n55_n218# d9 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1030 a_51_n218# d7 1 1 pfet w=12 l=2
++  ad=72 pd=36 as=0 ps=0
+M1031 a_281_85# a_316_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+M1032 a_361_85# a_422_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+R27 a_21_1# out_dac nwellResistor w=12 l=78
+R28 a_21_1# a_61_n15# nwellResistor w=12 l=78
+M1033 a_106_n215# a_104_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+M1034 a_n55_n218# d9 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+M1035 a_51_n218# d7 0 0 nfet w=6 l=2
++  ad=36 pd=24 as=0 ps=0
+M1036 a_201_85# a_210_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+M1037 a_321_n99# a_369_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+R29 a_159_n215# a_161_n15# nwellResistor w=12 l=78
+M1038 a_159_n215# a_157_n218# 0 0 nfet w=10 l=2
++  ad=132 pd=68 as=0 ps=0
+M1039 a_0_n215# a_n2_n218# vref 1 pfet w=40 l=2
++  ad=240 pd=92 as=0 ps=0
+
+V9 d9 0 PULSE(1.8V 0 1p 1n 1n 51200n 102400n)
+V8 d8 0 PULSE(1.8V 0 1p 1n 1n 25600n 51200n)
+V7 d7 0 PULSE(1.8V 0 1p 1n 1n 12800n 25600n)
+V6 d6 0 PULSE(1.8V 0 1p 1n 1n 6400n 12800n)
+V5 d5 0 PULSE(1.8V 0 1p 1n 1n 3200n 6400n)
+V4 d4 0 PULSE(1.8V 0 1p 1n 1n 1600n 3200n)
+V3 d3 0 PULSE(1.8V 0 1p 1n 1n 800n 1600n)
+V2 d2 0 PULSE(1.8V 0 1p 1n 1n 400n 800n)
+V1 d1 0 PULSE(1.8V 0 1p 1n 1n 200n 400n)
+V0 d0 0 PULSE(1.8V 0 1p 1n 1n 100n 200n)
+
+Vd_vref vref 0 3.3V
+Vdd 1 0 3.3
+.model nwellResistor R (RSH=929)
+.include osu018.lib
+.tran 1ns 103us
+.control
+run
+plot V(out_dac)
+.endc
+.end
+
+
+

@@ -1,0 +1,113 @@
+magic
+tech scmos
+timestamp 1598126484
+<< nwell >>
+rect -29 9 37 32
+<< ntransistor >>
+rect 2 -8 4 -4
+rect 15 -8 17 -4
+rect 23 -8 25 -4
+<< ptransistor >>
+rect -7 15 -5 19
+rect 2 15 4 19
+rect 23 15 25 19
+<< ndiffusion >>
+rect -4 -8 -3 -4
+rect 1 -8 2 -4
+rect 4 -8 8 -4
+rect 12 -8 15 -4
+rect 17 -8 18 -4
+rect 22 -8 23 -4
+rect 25 -8 26 -4
+rect 30 -8 31 -4
+<< pdiffusion >>
+rect -14 15 -13 19
+rect -9 15 -7 19
+rect -5 15 2 19
+rect 4 15 8 19
+rect 12 15 13 19
+rect 17 15 18 19
+rect 22 15 23 19
+rect 25 15 26 19
+rect 30 15 31 19
+<< ndcontact >>
+rect -3 -8 1 -4
+rect 8 -8 12 -4
+rect 18 -8 22 -4
+rect 26 -8 30 -4
+<< pdcontact >>
+rect -13 15 -9 19
+rect 8 15 12 19
+rect 18 15 22 19
+rect 26 15 30 19
+<< psubstratepcontact >>
+rect -9 -24 -5 -20
+rect 4 -24 8 -20
+rect 16 -24 20 -20
+rect 25 -24 29 -20
+<< nsubstratencontact >>
+rect -24 24 -20 28
+rect -16 24 -12 28
+rect -6 24 -2 28
+rect 6 24 10 28
+rect 22 24 26 28
+<< polysilicon >>
+rect -7 19 -5 22
+rect 2 19 4 22
+rect 23 19 25 22
+rect -7 12 -5 15
+rect 2 13 4 15
+rect 2 -4 4 -1
+rect 15 -4 17 -1
+rect 23 -4 25 15
+rect 2 -11 4 -8
+rect 15 -17 17 -8
+rect 23 -11 25 -8
+<< polycontact >>
+rect -9 8 -5 12
+rect 1 9 5 13
+rect 1 -1 5 3
+rect 19 2 23 6
+rect 11 -17 15 -13
+<< metal1 >>
+rect -25 24 -24 28
+rect -20 24 -16 28
+rect -12 24 -6 28
+rect -2 24 6 28
+rect 10 24 22 28
+rect 26 24 34 28
+rect -13 19 -9 24
+rect 18 19 22 24
+rect 1 8 5 9
+rect -9 5 -5 8
+rect -16 1 -12 5
+rect -8 1 -5 5
+rect -2 4 5 8
+rect 1 3 5 4
+rect 8 6 12 15
+rect 26 6 30 15
+rect 8 2 19 6
+rect 26 2 33 6
+rect 8 -4 12 2
+rect 26 -4 30 2
+rect -3 -20 1 -8
+rect 8 -17 11 -13
+rect 18 -20 22 -8
+rect -11 -24 -9 -20
+rect -5 -24 4 -20
+rect 8 -24 16 -20
+rect 20 -24 25 -20
+rect 29 -24 31 -20
+<< m2contact >>
+rect -12 1 -8 5
+rect 4 -17 8 -13
+<< metal2 >>
+rect -12 -13 -8 1
+rect -12 -17 4 -13
+<< labels >>
+rlabel metal1 3 26 3 26 1 Vdd
+rlabel metal1 -1 6 -1 6 1 A
+rlabel metal1 31 4 31 4 1 OR
+rlabel metal1 -14 3 -14 3 1 B
+rlabel metal1 12 -22 12 -22 1 0
+<< end >>

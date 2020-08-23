@@ -1,0 +1,22 @@
+
+V9 d9 0 PULSE(1.8V 0 1p 1n 1n 51200n 102400n)
+V8 d8 0 PULSE(1.8V 0 1p 1n 1n 25600n 51200n)
+V7 d7 0 PULSE(1.8V 0 1p 1n 1n 12800n 25600n)
+V6 d6 0 PULSE(1.8V 0 1p 1n 1n 6400n 12800n)
+V5 d5 0 PULSE(1.8V 0 1p 1n 1n 3200n 6400n)
+V4 d4 0 PULSE(1.8V 0 1p 1n 1n 1600n 3200n)
+V3 d3 0 PULSE(1.8V 0 1p 1n 1n 800n 1600n)
+V2 d2 0 PULSE(1.8V 0 1p 1n 1n 400n 800n)
+V1 d1 0 PULSE(1.8V 0 1p 1n 1n 200n 400n)
+V0 d0 0 PULSE(1.8V 0 1p 1n 1n 100n 200n)
+
+Vd_vref vref 0 3.3V
+Vdd 1 0 3.3
+.model nwellResistor R (RSH=929)
+.include osu018.lib
+.tran 1ns 103us
+.control
+run
+plot V(out_dac)
+.endc
+.end

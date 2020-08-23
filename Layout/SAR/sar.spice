@@ -1,0 +1,1622 @@
+* SPICE3 file created from code_v1.ext - technology: scmos
+
+.option scale=0.1u
+
+M1000 dffsr_11/e 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1001 dffsr_11/Sbar EOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 dffsr_11/h dffsr_11/dd dffsr_11/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 0 0 dffsr_11/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 dffsr_11/h dffsr_11/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 dffsr_11/b dffsr_11/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 dffsr_11/c dffsr_11/e dffsr_11/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 1 dffsr_11/e dffsr_11/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 1 dffsr_11/Q_bar dffsr_11/Q 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 dffsr_11/b dffsr_11/Sbar dffsr_11/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 dffsr_11/g dffsr_11/e dffsr_11/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 1 dffsr_11/Rbar dffsr_11/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 dffsr_11/j dffsr_11/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 dffsr_11/h dffsr_11/Sbar dffsr_11/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 dffsr_11/g dffsr_11/dd dffsr_11/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 dffsr_11/Rbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 1 dffsr_11/b dffsr_11/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 dffsr_11/i dffsr_11/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 dffsr_11/c dffsr_11/dd dffsr_11/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1019 dffsr_11/Sbar EOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 dffsr_11/Rbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 0 dffsr_11/e dffsr_11/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 0 dffsr_11/Q_bar dffsr_11/Q 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 dffsr_11/Q_bar dffsr_11/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 dffsr_11/h dffsr_11/e dffsr_11/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1025 dffsr_11/a dffsr_11/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 0 dffsr_11/b dffsr_11/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 dffsr_11/f dffsr_11/e dffsr_11/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 dffsr_11/k dffsr_11/Rbar dffsr_11/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 1 0 dffsr_11/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 1 dffsr_11/Sbar dffsr_11/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 dffsr_11/e 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 0 dffsr_11/Rbar dffsr_11/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1033 1 dffsr_11/Sbar dffsr_11/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 dffsr_11/l dffsr_11/g dffsr_11/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1035 dffsr_11/f dffsr_11/dd dffsr_11/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 dffsr_13/e D0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1037 dffsr_13/Sbar q9 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 dffsr_13/h dffsr_13/dd dffsr_13/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 0 comp dffsr_13/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 dffsr_13/h dffsr_13/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 dffsr_13/b dffsr_13/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1042 dffsr_13/c dffsr_13/e dffsr_13/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1043 1 dffsr_13/e dffsr_13/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 1 dffsr_13/Q_bar D1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 dffsr_13/b dffsr_13/Sbar dffsr_13/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 dffsr_13/g dffsr_13/e dffsr_13/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1047 1 dffsr_13/Rbar dffsr_13/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 dffsr_13/j dffsr_13/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1049 dffsr_13/h dffsr_13/Sbar dffsr_13/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 dffsr_13/g dffsr_13/dd dffsr_13/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1051 dffsr_13/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 1 dffsr_13/b dffsr_13/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1053 dffsr_13/i dffsr_13/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 dffsr_13/c dffsr_13/dd dffsr_13/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1055 dffsr_13/Sbar q9 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 dffsr_13/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1057 0 dffsr_13/e dffsr_13/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 0 dffsr_13/Q_bar D1 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1059 dffsr_13/Q_bar dffsr_13/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 dffsr_13/h dffsr_13/e dffsr_13/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 dffsr_13/a dffsr_13/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 0 dffsr_13/b dffsr_13/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1063 dffsr_13/f dffsr_13/e dffsr_13/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1064 dffsr_13/k dffsr_13/Rbar dffsr_13/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1065 1 comp dffsr_13/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1066 1 dffsr_13/Sbar dffsr_13/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1067 dffsr_13/e D0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1068 0 dffsr_13/Rbar dffsr_13/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1069 1 dffsr_13/Sbar dffsr_13/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 dffsr_13/l dffsr_13/g dffsr_13/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1071 dffsr_13/f dffsr_13/dd dffsr_13/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 dffsr_12/e dffsr_11/Q 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1073 dffsr_12/Sbar q10 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 dffsr_12/h dffsr_12/dd dffsr_12/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1075 0 comp dffsr_12/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 dffsr_12/h dffsr_12/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1077 dffsr_12/b dffsr_12/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 dffsr_12/c dffsr_12/e dffsr_12/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1079 1 dffsr_12/e dffsr_12/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 1 dffsr_12/Q_bar D0 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1081 dffsr_12/b dffsr_12/Sbar dffsr_12/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 dffsr_12/g dffsr_12/e dffsr_12/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 1 dffsr_12/Rbar dffsr_12/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1084 dffsr_12/j dffsr_12/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1085 dffsr_12/h dffsr_12/Sbar dffsr_12/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1086 dffsr_12/g dffsr_12/dd dffsr_12/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1087 dffsr_12/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1088 1 dffsr_12/b dffsr_12/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1089 dffsr_12/i dffsr_12/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 dffsr_12/c dffsr_12/dd dffsr_12/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1091 dffsr_12/Sbar q10 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1092 dffsr_12/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1093 0 dffsr_12/e dffsr_12/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 0 dffsr_12/Q_bar D0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 dffsr_12/Q_bar dffsr_12/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 dffsr_12/h dffsr_12/e dffsr_12/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1097 dffsr_12/a dffsr_12/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 0 dffsr_12/b dffsr_12/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1099 dffsr_12/f dffsr_12/e dffsr_12/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1100 dffsr_12/k dffsr_12/Rbar dffsr_12/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1101 1 comp dffsr_12/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 1 dffsr_12/Sbar dffsr_12/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1103 dffsr_12/e dffsr_11/Q 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1104 0 dffsr_12/Rbar dffsr_12/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1105 1 dffsr_12/Sbar dffsr_12/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 dffsr_12/l dffsr_12/g dffsr_12/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1107 dffsr_12/f dffsr_12/dd dffsr_12/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 dffsr_14/e D1 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1109 dffsr_14/Sbar q8 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 dffsr_14/h dffsr_14/dd dffsr_14/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1111 0 comp dffsr_14/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1112 dffsr_14/h dffsr_14/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1113 dffsr_14/b dffsr_14/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1114 dffsr_14/c dffsr_14/e dffsr_14/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1115 1 dffsr_14/e dffsr_14/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 1 dffsr_14/Q_bar D2 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1117 dffsr_14/b dffsr_14/Sbar dffsr_14/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1118 dffsr_14/g dffsr_14/e dffsr_14/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1119 1 dffsr_14/Rbar dffsr_14/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 dffsr_14/j dffsr_14/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1121 dffsr_14/h dffsr_14/Sbar dffsr_14/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 dffsr_14/g dffsr_14/dd dffsr_14/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1123 dffsr_14/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1124 1 dffsr_14/b dffsr_14/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1125 dffsr_14/i dffsr_14/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 dffsr_14/c dffsr_14/dd dffsr_14/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1127 dffsr_14/Sbar q8 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1128 dffsr_14/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1129 0 dffsr_14/e dffsr_14/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1130 0 dffsr_14/Q_bar D2 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1131 dffsr_14/Q_bar dffsr_14/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 dffsr_14/h dffsr_14/e dffsr_14/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1133 dffsr_14/a dffsr_14/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 0 dffsr_14/b dffsr_14/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1135 dffsr_14/f dffsr_14/e dffsr_14/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 dffsr_14/k dffsr_14/Rbar dffsr_14/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1137 1 comp dffsr_14/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 1 dffsr_14/Sbar dffsr_14/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1139 dffsr_14/e D1 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 0 dffsr_14/Rbar dffsr_14/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1141 1 dffsr_14/Sbar dffsr_14/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1142 dffsr_14/l dffsr_14/g dffsr_14/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1143 dffsr_14/f dffsr_14/dd dffsr_14/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 dffsr_15/e D2 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1145 dffsr_15/Sbar q7 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 dffsr_15/h dffsr_15/dd dffsr_15/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1147 0 comp dffsr_15/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 dffsr_15/h dffsr_15/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1149 dffsr_15/b dffsr_15/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1150 dffsr_15/c dffsr_15/e dffsr_15/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1151 1 dffsr_15/e dffsr_15/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 1 dffsr_15/Q_bar D3 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1153 dffsr_15/b dffsr_15/Sbar dffsr_15/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1154 dffsr_15/g dffsr_15/e dffsr_15/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1155 1 dffsr_15/Rbar dffsr_15/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1156 dffsr_15/j dffsr_15/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1157 dffsr_15/h dffsr_15/Sbar dffsr_15/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1158 dffsr_15/g dffsr_15/dd dffsr_15/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1159 dffsr_15/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1160 1 dffsr_15/b dffsr_15/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1161 dffsr_15/i dffsr_15/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1162 dffsr_15/c dffsr_15/dd dffsr_15/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1163 dffsr_15/Sbar q7 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 dffsr_15/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1165 0 dffsr_15/e dffsr_15/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1166 0 dffsr_15/Q_bar D3 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1167 dffsr_15/Q_bar dffsr_15/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1168 dffsr_15/h dffsr_15/e dffsr_15/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1169 dffsr_15/a dffsr_15/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1170 0 dffsr_15/b dffsr_15/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1171 dffsr_15/f dffsr_15/e dffsr_15/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1172 dffsr_15/k dffsr_15/Rbar dffsr_15/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1173 1 comp dffsr_15/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1174 1 dffsr_15/Sbar dffsr_15/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1175 dffsr_15/e D2 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1176 0 dffsr_15/Rbar dffsr_15/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1177 1 dffsr_15/Sbar dffsr_15/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1178 dffsr_15/l dffsr_15/g dffsr_15/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1179 dffsr_15/f dffsr_15/dd dffsr_15/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1180 dffsr_16/e D3 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1181 dffsr_16/Sbar q6 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1182 dffsr_16/h dffsr_16/dd dffsr_16/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1183 0 comp dffsr_16/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1184 dffsr_16/h dffsr_16/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1185 dffsr_16/b dffsr_16/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1186 dffsr_16/c dffsr_16/e dffsr_16/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1187 1 dffsr_16/e dffsr_16/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1188 1 dffsr_16/Q_bar D4 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1189 dffsr_16/b dffsr_16/Sbar dffsr_16/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1190 dffsr_16/g dffsr_16/e dffsr_16/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1191 1 dffsr_16/Rbar dffsr_16/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1192 dffsr_16/j dffsr_16/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1193 dffsr_16/h dffsr_16/Sbar dffsr_16/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1194 dffsr_16/g dffsr_16/dd dffsr_16/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1195 dffsr_16/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1196 1 dffsr_16/b dffsr_16/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1197 dffsr_16/i dffsr_16/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1198 dffsr_16/c dffsr_16/dd dffsr_16/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1199 dffsr_16/Sbar q6 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1200 dffsr_16/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1201 0 dffsr_16/e dffsr_16/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1202 0 dffsr_16/Q_bar D4 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1203 dffsr_16/Q_bar dffsr_16/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1204 dffsr_16/h dffsr_16/e dffsr_16/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1205 dffsr_16/a dffsr_16/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1206 0 dffsr_16/b dffsr_16/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1207 dffsr_16/f dffsr_16/e dffsr_16/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1208 dffsr_16/k dffsr_16/Rbar dffsr_16/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1209 1 comp dffsr_16/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1210 1 dffsr_16/Sbar dffsr_16/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1211 dffsr_16/e D3 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1212 0 dffsr_16/Rbar dffsr_16/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1213 1 dffsr_16/Sbar dffsr_16/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1214 dffsr_16/l dffsr_16/g dffsr_16/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1215 dffsr_16/f dffsr_16/dd dffsr_16/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1216 dffsr_17/e D4 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1217 dffsr_17/Sbar q5 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1218 dffsr_17/h dffsr_17/dd dffsr_17/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1219 0 comp dffsr_17/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1220 dffsr_17/h dffsr_17/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1221 dffsr_17/b dffsr_17/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1222 dffsr_17/c dffsr_17/e dffsr_17/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1223 1 dffsr_17/e dffsr_17/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1224 1 dffsr_17/Q_bar D5 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1225 dffsr_17/b dffsr_17/Sbar dffsr_17/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1226 dffsr_17/g dffsr_17/e dffsr_17/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1227 1 dffsr_17/Rbar dffsr_17/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1228 dffsr_17/j dffsr_17/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1229 dffsr_17/h dffsr_17/Sbar dffsr_17/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1230 dffsr_17/g dffsr_17/dd dffsr_17/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1231 dffsr_17/Rbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1232 1 dffsr_17/b dffsr_17/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1233 dffsr_17/i dffsr_17/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1234 dffsr_17/c dffsr_17/dd dffsr_17/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1235 dffsr_17/Sbar q5 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1236 dffsr_17/Rbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1237 0 dffsr_17/e dffsr_17/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1238 0 dffsr_17/Q_bar D5 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1239 dffsr_17/Q_bar dffsr_17/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1240 dffsr_17/h dffsr_17/e dffsr_17/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1241 dffsr_17/a dffsr_17/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1242 0 dffsr_17/b dffsr_17/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1243 dffsr_17/f dffsr_17/e dffsr_17/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1244 dffsr_17/k dffsr_17/Rbar dffsr_17/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1245 1 comp dffsr_17/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1246 1 dffsr_17/Sbar dffsr_17/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1247 dffsr_17/e D4 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1248 0 dffsr_17/Rbar dffsr_17/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1249 1 dffsr_17/Sbar dffsr_17/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1250 dffsr_17/l dffsr_17/g dffsr_17/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1251 dffsr_17/f dffsr_17/dd dffsr_17/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1252 dffsr_18/e D5 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1253 dffsr_18/Sbar q4 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1254 dffsr_18/h dffsr_18/dd dffsr_18/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1255 0 comp dffsr_18/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1256 dffsr_18/h dffsr_18/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1257 dffsr_18/b dffsr_18/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1258 dffsr_18/c dffsr_18/e dffsr_18/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1259 1 dffsr_18/e dffsr_18/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1260 1 dffsr_18/Q_bar D6 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1261 dffsr_18/b dffsr_18/Sbar dffsr_18/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1262 dffsr_18/g dffsr_18/e dffsr_18/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1263 1 dffsr_18/Rbar dffsr_18/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1264 dffsr_18/j dffsr_18/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1265 dffsr_18/h dffsr_18/Sbar dffsr_18/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1266 dffsr_18/g dffsr_18/dd dffsr_18/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1267 dffsr_18/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1268 1 dffsr_18/b dffsr_18/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1269 dffsr_18/i dffsr_18/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1270 dffsr_18/c dffsr_18/dd dffsr_18/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1271 dffsr_18/Sbar q4 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1272 dffsr_18/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1273 0 dffsr_18/e dffsr_18/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1274 0 dffsr_18/Q_bar D6 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1275 dffsr_18/Q_bar dffsr_18/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1276 dffsr_18/h dffsr_18/e dffsr_18/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1277 dffsr_18/a dffsr_18/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1278 0 dffsr_18/b dffsr_18/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1279 dffsr_18/f dffsr_18/e dffsr_18/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1280 dffsr_18/k dffsr_18/Rbar dffsr_18/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1281 1 comp dffsr_18/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1282 1 dffsr_18/Sbar dffsr_18/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1283 dffsr_18/e D5 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1284 0 dffsr_18/Rbar dffsr_18/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1285 1 dffsr_18/Sbar dffsr_18/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1286 dffsr_18/l dffsr_18/g dffsr_18/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1287 dffsr_18/f dffsr_18/dd dffsr_18/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1288 dffsr_19/e D6 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1289 dffsr_19/Sbar q3 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1290 dffsr_19/h dffsr_19/dd dffsr_19/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1291 0 comp dffsr_19/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1292 dffsr_19/h dffsr_19/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1293 dffsr_19/b dffsr_19/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1294 dffsr_19/c dffsr_19/e dffsr_19/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1295 1 dffsr_19/e dffsr_19/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1296 1 dffsr_19/Q_bar D7 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1297 dffsr_19/b dffsr_19/Sbar dffsr_19/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1298 dffsr_19/g dffsr_19/e dffsr_19/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1299 1 dffsr_19/Rbar dffsr_19/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1300 dffsr_19/j dffsr_19/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1301 dffsr_19/h dffsr_19/Sbar dffsr_19/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1302 dffsr_19/g dffsr_19/dd dffsr_19/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1303 dffsr_19/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1304 1 dffsr_19/b dffsr_19/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1305 dffsr_19/i dffsr_19/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1306 dffsr_19/c dffsr_19/dd dffsr_19/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1307 dffsr_19/Sbar q3 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1308 dffsr_19/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1309 0 dffsr_19/e dffsr_19/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1310 0 dffsr_19/Q_bar D7 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1311 dffsr_19/Q_bar dffsr_19/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1312 dffsr_19/h dffsr_19/e dffsr_19/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1313 dffsr_19/a dffsr_19/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1314 0 dffsr_19/b dffsr_19/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1315 dffsr_19/f dffsr_19/e dffsr_19/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1316 dffsr_19/k dffsr_19/Rbar dffsr_19/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1317 1 comp dffsr_19/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1318 1 dffsr_19/Sbar dffsr_19/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1319 dffsr_19/e D6 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1320 0 dffsr_19/Rbar dffsr_19/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1321 1 dffsr_19/Sbar dffsr_19/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1322 dffsr_19/l dffsr_19/g dffsr_19/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1323 dffsr_19/f dffsr_19/dd dffsr_19/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1324 dffsr_20/e D7 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1325 dffsr_20/Sbar q2 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1326 dffsr_20/h dffsr_20/dd dffsr_20/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1327 0 comp dffsr_20/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1328 dffsr_20/h dffsr_20/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1329 dffsr_20/b dffsr_20/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1330 dffsr_20/c dffsr_20/e dffsr_20/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1331 1 dffsr_20/e dffsr_20/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1332 1 dffsr_20/Q_bar D8 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1333 dffsr_20/b dffsr_20/Sbar dffsr_20/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1334 dffsr_20/g dffsr_20/e dffsr_20/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1335 1 dffsr_20/Rbar dffsr_20/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1336 dffsr_20/j dffsr_20/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1337 dffsr_20/h dffsr_20/Sbar dffsr_20/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1338 dffsr_20/g dffsr_20/dd dffsr_20/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1339 dffsr_20/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1340 1 dffsr_20/b dffsr_20/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1341 dffsr_20/i dffsr_20/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1342 dffsr_20/c dffsr_20/dd dffsr_20/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1343 dffsr_20/Sbar q2 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1344 dffsr_20/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1345 0 dffsr_20/e dffsr_20/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1346 0 dffsr_20/Q_bar D8 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1347 dffsr_20/Q_bar dffsr_20/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1348 dffsr_20/h dffsr_20/e dffsr_20/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1349 dffsr_20/a dffsr_20/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1350 0 dffsr_20/b dffsr_20/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1351 dffsr_20/f dffsr_20/e dffsr_20/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1352 dffsr_20/k dffsr_20/Rbar dffsr_20/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1353 1 comp dffsr_20/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1354 1 dffsr_20/Sbar dffsr_20/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1355 dffsr_20/e D7 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1356 0 dffsr_20/Rbar dffsr_20/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1357 1 dffsr_20/Sbar dffsr_20/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1358 dffsr_20/l dffsr_20/g dffsr_20/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1359 dffsr_20/f dffsr_20/dd dffsr_20/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1360 dffsr_21/e D8 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1361 dffsr_21/Sbar q1 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1362 dffsr_21/h dffsr_21/dd dffsr_21/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1363 0 comp dffsr_21/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1364 dffsr_21/h dffsr_21/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1365 dffsr_21/b dffsr_21/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1366 dffsr_21/c dffsr_21/e dffsr_21/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1367 1 dffsr_21/e dffsr_21/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1368 1 dffsr_21/Q_bar D9 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1369 dffsr_21/b dffsr_21/Sbar dffsr_21/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1370 dffsr_21/g dffsr_21/e dffsr_21/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1371 1 dffsr_21/Rbar dffsr_21/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1372 dffsr_21/j dffsr_21/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1373 dffsr_21/h dffsr_21/Sbar dffsr_21/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1374 dffsr_21/g dffsr_21/dd dffsr_21/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1375 dffsr_21/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1376 1 dffsr_21/b dffsr_21/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1377 dffsr_21/i dffsr_21/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1378 dffsr_21/c dffsr_21/dd dffsr_21/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1379 dffsr_21/Sbar q1 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1380 dffsr_21/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1381 0 dffsr_21/e dffsr_21/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1382 0 dffsr_21/Q_bar D9 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1383 dffsr_21/Q_bar dffsr_21/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1384 dffsr_21/h dffsr_21/e dffsr_21/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1385 dffsr_21/a dffsr_21/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1386 0 dffsr_21/b dffsr_21/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1387 dffsr_21/f dffsr_21/e dffsr_21/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1388 dffsr_21/k dffsr_21/Rbar dffsr_21/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1389 1 comp dffsr_21/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1390 1 dffsr_21/Sbar dffsr_21/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1391 dffsr_21/e D8 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1392 0 dffsr_21/Rbar dffsr_21/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1393 1 dffsr_21/Sbar dffsr_21/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1394 dffsr_21/l dffsr_21/g dffsr_21/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1395 dffsr_21/f dffsr_21/dd dffsr_21/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1396 dffsr_0/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1397 dffsr_0/Sbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1398 dffsr_0/h dffsr_0/dd dffsr_0/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1399 0 0 dffsr_0/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1400 dffsr_0/h dffsr_0/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1401 dffsr_0/b dffsr_0/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1402 dffsr_0/c dffsr_0/e dffsr_0/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1403 1 dffsr_0/e dffsr_0/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1404 1 dffsr_0/Q_bar q1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1405 dffsr_0/b dffsr_0/Sbar dffsr_0/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1406 dffsr_0/g dffsr_0/e dffsr_0/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1407 1 dffsr_0/Rbar dffsr_0/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1408 dffsr_0/j dffsr_0/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1409 dffsr_0/h dffsr_0/Sbar dffsr_0/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1410 dffsr_0/g dffsr_0/dd dffsr_0/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1411 dffsr_0/Rbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1412 1 dffsr_0/b dffsr_0/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1413 dffsr_0/i dffsr_0/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1414 dffsr_0/c dffsr_0/dd dffsr_0/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1415 dffsr_0/Sbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1416 dffsr_0/Rbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1417 0 dffsr_0/e dffsr_0/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1418 0 dffsr_0/Q_bar q1 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1419 dffsr_0/Q_bar dffsr_0/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1420 dffsr_0/h dffsr_0/e dffsr_0/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1421 dffsr_0/a dffsr_0/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1422 0 dffsr_0/b dffsr_0/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1423 dffsr_0/f dffsr_0/e dffsr_0/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1424 dffsr_0/k dffsr_0/Rbar dffsr_0/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1425 1 0 dffsr_0/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1426 1 dffsr_0/Sbar dffsr_0/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1427 dffsr_0/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1428 0 dffsr_0/Rbar dffsr_0/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1429 1 dffsr_0/Sbar dffsr_0/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1430 dffsr_0/l dffsr_0/g dffsr_0/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1431 dffsr_0/f dffsr_0/dd dffsr_0/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1432 dffsr_1/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1433 dffsr_1/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1434 dffsr_1/h dffsr_1/dd dffsr_1/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1435 0 q1 dffsr_1/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1436 dffsr_1/h dffsr_1/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1437 dffsr_1/b dffsr_1/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1438 dffsr_1/c dffsr_1/e dffsr_1/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1439 1 dffsr_1/e dffsr_1/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1440 1 dffsr_1/Q_bar q2 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1441 dffsr_1/b dffsr_1/Sbar dffsr_1/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1442 dffsr_1/g dffsr_1/e dffsr_1/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1443 1 dffsr_1/Rbar dffsr_1/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1444 dffsr_1/j dffsr_1/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1445 dffsr_1/h dffsr_1/Sbar dffsr_1/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1446 dffsr_1/g dffsr_1/dd dffsr_1/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1447 dffsr_1/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1448 1 dffsr_1/b dffsr_1/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1449 dffsr_1/i dffsr_1/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1450 dffsr_1/c dffsr_1/dd dffsr_1/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1451 dffsr_1/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1452 dffsr_1/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1453 0 dffsr_1/e dffsr_1/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1454 0 dffsr_1/Q_bar q2 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1455 dffsr_1/Q_bar dffsr_1/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1456 dffsr_1/h dffsr_1/e dffsr_1/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1457 dffsr_1/a dffsr_1/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1458 0 dffsr_1/b dffsr_1/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1459 dffsr_1/f dffsr_1/e dffsr_1/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1460 dffsr_1/k dffsr_1/Rbar dffsr_1/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1461 1 q1 dffsr_1/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1462 1 dffsr_1/Sbar dffsr_1/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1463 dffsr_1/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1464 0 dffsr_1/Rbar dffsr_1/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1465 1 dffsr_1/Sbar dffsr_1/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1466 dffsr_1/l dffsr_1/g dffsr_1/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1467 dffsr_1/f dffsr_1/dd dffsr_1/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1468 dffsr_2/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1469 dffsr_2/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1470 dffsr_2/h dffsr_2/dd dffsr_2/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1471 0 q2 dffsr_2/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1472 dffsr_2/h dffsr_2/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1473 dffsr_2/b dffsr_2/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1474 dffsr_2/c dffsr_2/e dffsr_2/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1475 1 dffsr_2/e dffsr_2/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1476 1 dffsr_2/Q_bar q3 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1477 dffsr_2/b dffsr_2/Sbar dffsr_2/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1478 dffsr_2/g dffsr_2/e dffsr_2/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1479 1 dffsr_2/Rbar dffsr_2/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1480 dffsr_2/j dffsr_2/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1481 dffsr_2/h dffsr_2/Sbar dffsr_2/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1482 dffsr_2/g dffsr_2/dd dffsr_2/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1483 dffsr_2/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1484 1 dffsr_2/b dffsr_2/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1485 dffsr_2/i dffsr_2/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1486 dffsr_2/c dffsr_2/dd dffsr_2/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1487 dffsr_2/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1488 dffsr_2/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1489 0 dffsr_2/e dffsr_2/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1490 0 dffsr_2/Q_bar q3 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1491 dffsr_2/Q_bar dffsr_2/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1492 dffsr_2/h dffsr_2/e dffsr_2/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1493 dffsr_2/a dffsr_2/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1494 0 dffsr_2/b dffsr_2/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1495 dffsr_2/f dffsr_2/e dffsr_2/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1496 dffsr_2/k dffsr_2/Rbar dffsr_2/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1497 1 q2 dffsr_2/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1498 1 dffsr_2/Sbar dffsr_2/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1499 dffsr_2/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1500 0 dffsr_2/Rbar dffsr_2/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1501 1 dffsr_2/Sbar dffsr_2/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1502 dffsr_2/l dffsr_2/g dffsr_2/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1503 dffsr_2/f dffsr_2/dd dffsr_2/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1504 dffsr_3/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1505 dffsr_3/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1506 dffsr_3/h dffsr_3/dd dffsr_3/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1507 0 q3 dffsr_3/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1508 dffsr_3/h dffsr_3/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1509 dffsr_3/b dffsr_3/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1510 dffsr_3/c dffsr_3/e dffsr_3/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1511 1 dffsr_3/e dffsr_3/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1512 1 dffsr_3/Q_bar q4 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1513 dffsr_3/b dffsr_3/Sbar dffsr_3/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1514 dffsr_3/g dffsr_3/e dffsr_3/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1515 1 dffsr_3/Rbar dffsr_3/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1516 dffsr_3/j dffsr_3/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1517 dffsr_3/h dffsr_3/Sbar dffsr_3/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1518 dffsr_3/g dffsr_3/dd dffsr_3/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1519 dffsr_3/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1520 1 dffsr_3/b dffsr_3/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1521 dffsr_3/i dffsr_3/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1522 dffsr_3/c dffsr_3/dd dffsr_3/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1523 dffsr_3/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1524 dffsr_3/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1525 0 dffsr_3/e dffsr_3/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1526 0 dffsr_3/Q_bar q4 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1527 dffsr_3/Q_bar dffsr_3/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1528 dffsr_3/h dffsr_3/e dffsr_3/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1529 dffsr_3/a dffsr_3/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1530 0 dffsr_3/b dffsr_3/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1531 dffsr_3/f dffsr_3/e dffsr_3/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1532 dffsr_3/k dffsr_3/Rbar dffsr_3/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1533 1 q3 dffsr_3/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1534 1 dffsr_3/Sbar dffsr_3/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1535 dffsr_3/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1536 0 dffsr_3/Rbar dffsr_3/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1537 1 dffsr_3/Sbar dffsr_3/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1538 dffsr_3/l dffsr_3/g dffsr_3/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1539 dffsr_3/f dffsr_3/dd dffsr_3/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1540 dffsr_4/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1541 dffsr_4/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1542 dffsr_4/h dffsr_4/dd dffsr_4/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1543 0 q4 dffsr_4/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1544 dffsr_4/h dffsr_4/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1545 dffsr_4/b dffsr_4/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1546 dffsr_4/c dffsr_4/e dffsr_4/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1547 1 dffsr_4/e dffsr_4/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1548 1 dffsr_4/Q_bar q5 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1549 dffsr_4/b dffsr_4/Sbar dffsr_4/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1550 dffsr_4/g dffsr_4/e dffsr_4/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1551 1 dffsr_4/Rbar dffsr_4/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1552 dffsr_4/j dffsr_4/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1553 dffsr_4/h dffsr_4/Sbar dffsr_4/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1554 dffsr_4/g dffsr_4/dd dffsr_4/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1555 dffsr_4/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1556 1 dffsr_4/b dffsr_4/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1557 dffsr_4/i dffsr_4/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1558 dffsr_4/c dffsr_4/dd dffsr_4/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1559 dffsr_4/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1560 dffsr_4/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1561 0 dffsr_4/e dffsr_4/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1562 0 dffsr_4/Q_bar q5 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1563 dffsr_4/Q_bar dffsr_4/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1564 dffsr_4/h dffsr_4/e dffsr_4/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1565 dffsr_4/a dffsr_4/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1566 0 dffsr_4/b dffsr_4/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1567 dffsr_4/f dffsr_4/e dffsr_4/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1568 dffsr_4/k dffsr_4/Rbar dffsr_4/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1569 1 q4 dffsr_4/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1570 1 dffsr_4/Sbar dffsr_4/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1571 dffsr_4/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1572 0 dffsr_4/Rbar dffsr_4/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1573 1 dffsr_4/Sbar dffsr_4/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1574 dffsr_4/l dffsr_4/g dffsr_4/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1575 dffsr_4/f dffsr_4/dd dffsr_4/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1576 dffsr_5/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1577 dffsr_5/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1578 dffsr_5/h dffsr_5/dd dffsr_5/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1579 0 q5 dffsr_5/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1580 dffsr_5/h dffsr_5/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1581 dffsr_5/b dffsr_5/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1582 dffsr_5/c dffsr_5/e dffsr_5/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1583 1 dffsr_5/e dffsr_5/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1584 1 dffsr_5/Q_bar q6 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1585 dffsr_5/b dffsr_5/Sbar dffsr_5/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1586 dffsr_5/g dffsr_5/e dffsr_5/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1587 1 dffsr_5/Rbar dffsr_5/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1588 dffsr_5/j dffsr_5/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1589 dffsr_5/h dffsr_5/Sbar dffsr_5/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1590 dffsr_5/g dffsr_5/dd dffsr_5/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1591 dffsr_5/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1592 1 dffsr_5/b dffsr_5/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1593 dffsr_5/i dffsr_5/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1594 dffsr_5/c dffsr_5/dd dffsr_5/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1595 dffsr_5/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1596 dffsr_5/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1597 0 dffsr_5/e dffsr_5/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1598 0 dffsr_5/Q_bar q6 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1599 dffsr_5/Q_bar dffsr_5/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1600 dffsr_5/h dffsr_5/e dffsr_5/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1601 dffsr_5/a dffsr_5/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1602 0 dffsr_5/b dffsr_5/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1603 dffsr_5/f dffsr_5/e dffsr_5/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1604 dffsr_5/k dffsr_5/Rbar dffsr_5/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1605 1 q5 dffsr_5/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1606 1 dffsr_5/Sbar dffsr_5/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1607 dffsr_5/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1608 0 dffsr_5/Rbar dffsr_5/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1609 1 dffsr_5/Sbar dffsr_5/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1610 dffsr_5/l dffsr_5/g dffsr_5/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1611 dffsr_5/f dffsr_5/dd dffsr_5/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1612 dffsr_6/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1613 dffsr_6/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1614 dffsr_6/h dffsr_6/dd dffsr_6/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1615 0 q6 dffsr_6/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1616 dffsr_6/h dffsr_6/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1617 dffsr_6/b dffsr_6/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1618 dffsr_6/c dffsr_6/e dffsr_6/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1619 1 dffsr_6/e dffsr_6/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1620 1 dffsr_6/Q_bar q7 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1621 dffsr_6/b dffsr_6/Sbar dffsr_6/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1622 dffsr_6/g dffsr_6/e dffsr_6/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1623 1 dffsr_6/Rbar dffsr_6/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1624 dffsr_6/j dffsr_6/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1625 dffsr_6/h dffsr_6/Sbar dffsr_6/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1626 dffsr_6/g dffsr_6/dd dffsr_6/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1627 dffsr_6/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1628 1 dffsr_6/b dffsr_6/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1629 dffsr_6/i dffsr_6/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1630 dffsr_6/c dffsr_6/dd dffsr_6/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1631 dffsr_6/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1632 dffsr_6/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1633 0 dffsr_6/e dffsr_6/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1634 0 dffsr_6/Q_bar q7 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1635 dffsr_6/Q_bar dffsr_6/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1636 dffsr_6/h dffsr_6/e dffsr_6/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1637 dffsr_6/a dffsr_6/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1638 0 dffsr_6/b dffsr_6/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1639 dffsr_6/f dffsr_6/e dffsr_6/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1640 dffsr_6/k dffsr_6/Rbar dffsr_6/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1641 1 q6 dffsr_6/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1642 1 dffsr_6/Sbar dffsr_6/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1643 dffsr_6/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1644 0 dffsr_6/Rbar dffsr_6/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1645 1 dffsr_6/Sbar dffsr_6/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1646 dffsr_6/l dffsr_6/g dffsr_6/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1647 dffsr_6/f dffsr_6/dd dffsr_6/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1648 dffsr_7/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1649 dffsr_7/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1650 dffsr_7/h dffsr_7/dd dffsr_7/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1651 0 q7 dffsr_7/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1652 dffsr_7/h dffsr_7/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1653 dffsr_7/b dffsr_7/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1654 dffsr_7/c dffsr_7/e dffsr_7/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1655 1 dffsr_7/e dffsr_7/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1656 1 dffsr_7/Q_bar q8 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1657 dffsr_7/b dffsr_7/Sbar dffsr_7/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1658 dffsr_7/g dffsr_7/e dffsr_7/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1659 1 dffsr_7/Rbar dffsr_7/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1660 dffsr_7/j dffsr_7/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1661 dffsr_7/h dffsr_7/Sbar dffsr_7/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1662 dffsr_7/g dffsr_7/dd dffsr_7/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1663 dffsr_7/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1664 1 dffsr_7/b dffsr_7/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1665 dffsr_7/i dffsr_7/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1666 dffsr_7/c dffsr_7/dd dffsr_7/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1667 dffsr_7/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1668 dffsr_7/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1669 0 dffsr_7/e dffsr_7/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1670 0 dffsr_7/Q_bar q8 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1671 dffsr_7/Q_bar dffsr_7/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1672 dffsr_7/h dffsr_7/e dffsr_7/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1673 dffsr_7/a dffsr_7/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1674 0 dffsr_7/b dffsr_7/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1675 dffsr_7/f dffsr_7/e dffsr_7/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1676 dffsr_7/k dffsr_7/Rbar dffsr_7/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1677 1 q7 dffsr_7/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1678 1 dffsr_7/Sbar dffsr_7/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1679 dffsr_7/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1680 0 dffsr_7/Rbar dffsr_7/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1681 1 dffsr_7/Sbar dffsr_7/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1682 dffsr_7/l dffsr_7/g dffsr_7/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1683 dffsr_7/f dffsr_7/dd dffsr_7/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1684 dffsr_8/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1685 dffsr_8/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1686 dffsr_8/h dffsr_8/dd dffsr_8/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1687 0 q8 dffsr_8/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1688 dffsr_8/h dffsr_8/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1689 dffsr_8/b dffsr_8/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1690 dffsr_8/c dffsr_8/e dffsr_8/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1691 1 dffsr_8/e dffsr_8/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1692 1 dffsr_8/Q_bar q9 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1693 dffsr_8/b dffsr_8/Sbar dffsr_8/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1694 dffsr_8/g dffsr_8/e dffsr_8/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1695 1 dffsr_8/Rbar dffsr_8/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1696 dffsr_8/j dffsr_8/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1697 dffsr_8/h dffsr_8/Sbar dffsr_8/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1698 dffsr_8/g dffsr_8/dd dffsr_8/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1699 dffsr_8/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1700 1 dffsr_8/b dffsr_8/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1701 dffsr_8/i dffsr_8/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1702 dffsr_8/c dffsr_8/dd dffsr_8/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1703 dffsr_8/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1704 dffsr_8/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1705 0 dffsr_8/e dffsr_8/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1706 0 dffsr_8/Q_bar q9 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1707 dffsr_8/Q_bar dffsr_8/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1708 dffsr_8/h dffsr_8/e dffsr_8/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1709 dffsr_8/a dffsr_8/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1710 0 dffsr_8/b dffsr_8/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1711 dffsr_8/f dffsr_8/e dffsr_8/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1712 dffsr_8/k dffsr_8/Rbar dffsr_8/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1713 1 q8 dffsr_8/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1714 1 dffsr_8/Sbar dffsr_8/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1715 dffsr_8/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1716 0 dffsr_8/Rbar dffsr_8/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1717 1 dffsr_8/Sbar dffsr_8/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1718 dffsr_8/l dffsr_8/g dffsr_8/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1719 dffsr_8/f dffsr_8/dd dffsr_8/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1720 dffsr_9/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1721 dffsr_9/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1722 dffsr_9/h dffsr_9/dd dffsr_9/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1723 0 q9 dffsr_9/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1724 dffsr_9/h dffsr_9/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1725 dffsr_9/b dffsr_9/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1726 dffsr_9/c dffsr_9/e dffsr_9/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1727 1 dffsr_9/e dffsr_9/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1728 1 dffsr_9/Q_bar q10 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1729 dffsr_9/b dffsr_9/Sbar dffsr_9/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1730 dffsr_9/g dffsr_9/e dffsr_9/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1731 1 dffsr_9/Rbar dffsr_9/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1732 dffsr_9/j dffsr_9/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1733 dffsr_9/h dffsr_9/Sbar dffsr_9/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1734 dffsr_9/g dffsr_9/dd dffsr_9/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1735 dffsr_9/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1736 1 dffsr_9/b dffsr_9/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1737 dffsr_9/i dffsr_9/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1738 dffsr_9/c dffsr_9/dd dffsr_9/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1739 dffsr_9/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1740 dffsr_9/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1741 0 dffsr_9/e dffsr_9/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1742 0 dffsr_9/Q_bar q10 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1743 dffsr_9/Q_bar dffsr_9/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1744 dffsr_9/h dffsr_9/e dffsr_9/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1745 dffsr_9/a dffsr_9/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1746 0 dffsr_9/b dffsr_9/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1747 dffsr_9/f dffsr_9/e dffsr_9/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1748 dffsr_9/k dffsr_9/Rbar dffsr_9/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1749 1 q9 dffsr_9/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1750 1 dffsr_9/Sbar dffsr_9/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1751 dffsr_9/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1752 0 dffsr_9/Rbar dffsr_9/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1753 1 dffsr_9/Sbar dffsr_9/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1754 dffsr_9/l dffsr_9/g dffsr_9/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1755 dffsr_9/f dffsr_9/dd dffsr_9/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1756 dffsr_10/e CLK 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1757 dffsr_10/Sbar 0 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1758 dffsr_10/h dffsr_10/dd dffsr_10/g 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1759 0 q10 dffsr_10/f 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1760 dffsr_10/h dffsr_10/Q_bar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1761 dffsr_10/b dffsr_10/c 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1762 dffsr_10/c dffsr_10/e dffsr_10/a 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1763 1 dffsr_10/e dffsr_10/dd 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1764 1 dffsr_10/Q_bar EOC 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1765 dffsr_10/b dffsr_10/Sbar dffsr_10/j 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1766 dffsr_10/g dffsr_10/e dffsr_10/b 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1767 1 dffsr_10/Rbar dffsr_10/Q_bar 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1768 dffsr_10/j dffsr_10/c 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1769 dffsr_10/h dffsr_10/Sbar dffsr_10/i 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1770 dffsr_10/g dffsr_10/dd dffsr_10/b 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1771 dffsr_10/Rbar SOC 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1772 1 dffsr_10/b dffsr_10/a 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1773 dffsr_10/i dffsr_10/Q_bar 0 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1774 dffsr_10/c dffsr_10/dd dffsr_10/a 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1775 dffsr_10/Sbar 0 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1776 dffsr_10/Rbar SOC 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1777 0 dffsr_10/e dffsr_10/dd 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1778 0 dffsr_10/Q_bar EOC 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1779 dffsr_10/Q_bar dffsr_10/g 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1780 dffsr_10/h dffsr_10/e dffsr_10/g 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1781 dffsr_10/a dffsr_10/Rbar 1 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1782 0 dffsr_10/b dffsr_10/k 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1783 dffsr_10/f dffsr_10/e dffsr_10/c 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1784 dffsr_10/k dffsr_10/Rbar dffsr_10/a 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1785 1 q10 dffsr_10/f 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1786 1 dffsr_10/Sbar dffsr_10/h 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1787 dffsr_10/e CLK 0 0 nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1788 0 dffsr_10/Rbar dffsr_10/l 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1789 1 dffsr_10/Sbar dffsr_10/b 1 pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1790 dffsr_10/l dffsr_10/g dffsr_10/Q_bar 0 nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1791 dffsr_10/f dffsr_10/dd dffsr_10/c 1 pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 comp D4 2.16fF
+C1 CLK q6 2.05fF
+C2 D2 comp 2.15fF
+C3 CLK q8 2.25fF
+C4 CLK q7 2.15fF
+C5 CLK q9 2.25fF
+C6 D0 comp 2.18fF
+C7 comp D3 2.13fF
+C8 CLK q10 2.09fF
+C9 comp SOC 6.00fF
+C10 1 q5 4.03fF
+C11 q2 CLK 2.06fF
+C12 D1 comp 2.16fF
+C13 CLK 0 2.00fF
+C14 1 0 9.41fF
+C15 comp 0 2.89fF
+
+
+
+.include osu018.lib
+
+
+
+V_dd 1 0 1.8
+Vclk CLK 0 pulse(0 1.8 1n 1n 1n 0.25u 0.5u)
+Vr SOC 0 pulse (0 1.8 1n 1n 1n 0.5u 6u)
+Vc comp 0 pulse (0 1.8 1n 1n 1n 2u 6u)
+
+.tran 1n 6u
+.control
+run
+plot V(SOC) V(EOC) V(COMP) V(D9)+2 V(D8)+4 V(D7)+6 V(D6)+8 V(D5)+10 V(D4)+12 V(D3)+14 V(D2)+16 V(D1)+18 V(D0)+20
+.endc
+.end

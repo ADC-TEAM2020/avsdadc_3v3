@@ -1,0 +1,19 @@
+
+.include osu018.lib
+
+Vdd 1 0 3.3
+Vd_d 1x 0 1.8
+
+Vin in 0 sine(1.65 1.65 5k)
+
+Vclk CLK 0 pulse(0 1.8 1n 1n 1n 6u 12u)
+
+
+.tran 1u 100u
+.control
+
+run
+plot V(in) 
+plot V(out_sam)
+.endc
+.end
