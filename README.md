@@ -182,6 +182,38 @@ gnuplot> load 'dnl.p'
 </p>
 
 
+## Post Layout Simulation
+
+**Note: Complete Simulation of SAR ADC will be updated soon**
+
+### Simulation of Sample and Hold Circuit
+
+**Note: 1pF Capacitor manually, relevant layers will be added to ensure correct extraction of the capacitor**
+
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/L/sample2.png">
+</p>
+
+
+### Simulation Results of R-2R DAC
+
+**Note: Issue of floating capacitors due to Nwell Resistors will be resolved soon**
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/L/dac2.png">
+</p>
+
+
+### Simulation Results of SAR Logic
+
+ <p align="center">
+  <img width="1000" height="400" src="/Images/L/sar3.png">
+</p>
+
+
+
+
 ## Issues | Improvements | Future Work
 
 1. DNL error for lower digital codes needs to be reduced.
