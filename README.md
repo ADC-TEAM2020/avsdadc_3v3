@@ -158,17 +158,18 @@ gnuplot> load 'dnl.p'
 
 ## Layout
 
+### Layout of SAR ADC
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/adc.png">
+</p>
+
 ### Layout of Sample and Hold Circuit
 
  <p align="center">
   <img width="400" height="550" src="/Images/L/sample1.png">
 </p>
 
-### Layout of SAR ADC
-
- <p align="center">
-  <img width="400" height="550" src="/Images/adc.png">
-</p>
 
 ### Layout of Comparator
 
