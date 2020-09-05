@@ -181,20 +181,20 @@ gnuplot> load 'dnl.p'
 ### Layout of R-2R DAC
 
  <p align="center">
-  <img width="400" height="550" src="/Images/L/dac1.png">
+  <img width="800" height="550" src="/Images/L/dac1.png">
 </p>
 
 
 ### Layout of SAR Logic
 
  <p align="center">
-  <img width="1000" height="400" src="/Images/L/sar1.png">
+  <img width="1000" height="500" src="/Images/L/sar1.png">
 </p>
 
 ### Layout of Clock Divider
 
  <p align="center">
-  <img width="500" height="400" src="/Images/ccdiv.png">
+  <img width="700" height="500" src="/Images/ccdiv.png">
 </p>
 
 
