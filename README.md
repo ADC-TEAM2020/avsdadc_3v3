@@ -81,7 +81,11 @@ $  sudo apt install -y git
 $  git clone https://github.com/ADC-TEAM2020/SAR_ADC
 $  cd SAR_ADC/Simulation/PreLayout_v1.0/
 ```
+### Transfer Function of SAR ADC [INPUT RANGE 0-3.3]
 
+ <p align="center">
+  <img width="12000" height="800" src="/Images/transfer.png">
+</p>
 
 ### DC Analysis of SAR ADC [INPUT RANGE 0-3.3]
 
@@ -179,6 +183,12 @@ gnuplot> load 'dnl.p'
 
  <p align="center">
   <img width="1000" height="400" src="/Images/L/sar1.png">
+</p>
+
+### Layout of Clock Divider
+
+ <p align="center">
+  <img width="500" height="400" src="/Images/L/cdiv.png">
 </p>
 
 
