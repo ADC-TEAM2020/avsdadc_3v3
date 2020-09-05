@@ -202,6 +202,13 @@ gnuplot> load 'dnl.p'
 
 **Note: Complete Simulation of SAR ADC will be updated soon**
 
+### Simulation of Comparator Circuit
+
+<p align="center">
+  <img width="800" height="550" src="/Images/L/comp_postLO.PNG">
+</p>
+
+
 ### Simulation of Sample and Hold Circuit
 
 **Note: 20pF Capacitor manually added as relevant layers were not available to ensure correct extraction of the capacitor**
