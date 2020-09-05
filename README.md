@@ -84,7 +84,7 @@ $  cd SAR_ADC/Simulation/PreLayout_v1.0/
 ### Transfer Function of SAR ADC [INPUT RANGE 0-3.3]
 
  <p align="center">
-  <img width="12000" height="800" src="/Images/transfer.png">
+  <img width="1200" height="700" src="/Images/transfer.png">
 </p>
 
 ### DC Analysis of SAR ADC [INPUT RANGE 0-3.3]
@@ -158,12 +158,16 @@ gnuplot> load 'dnl.p'
 
 ## Layout
 
-**Note: Complete Layout of SAR ADC will be updated soon**
-
 ### Layout of Sample and Hold Circuit
 
  <p align="center">
   <img width="400" height="550" src="/Images/L/sample1.png">
+</p>
+
+### Layout of SAR ADC
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/adc.png">
 </p>
 
 ### Layout of Comparator
@@ -188,7 +192,7 @@ gnuplot> load 'dnl.p'
 ### Layout of Clock Divider
 
  <p align="center">
-  <img width="500" height="400" src="/Images/L/cdiv.png">
+  <img width="500" height="400" src="/Images/cdiv.png">
 </p>
 
 
