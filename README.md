@@ -12,6 +12,7 @@ Table of contents
    * [About Ngspice](#about-ngspice)
    * [Running the Simulation](#running-the-simulation)
    * [Pre-Layout Simulation](#pre-layout-simulation)
+   * [Layout](#layout)
    * [Issues | Improvements | Future Work](#issues--improvements--future-work)
    * [Acknowledgments](#acknowledgments)
    * [Contact Information](#contact-information)
@@ -161,7 +162,7 @@ gnuplot> load 'dnl.p'
 ### Layout of SAR ADC
 
  <p align="center">
-  <img width="1200" height="450" src="/Images/adc.png">
+  <img width="1200" height="600" src="/Images/adc.png">
 </p>
 
 ### Layout of Sample and Hold Circuit
@@ -193,7 +194,7 @@ gnuplot> load 'dnl.p'
 ### Layout of Clock Divider
 
  <p align="center">
-  <img width="500" height="400" src="/Images/cddiv.png">
+  <img width="500" height="400" src="/Images/ccdiv.png">
 </p>
 
 
@@ -203,7 +204,7 @@ gnuplot> load 'dnl.p'
 
 ### Simulation of Sample and Hold Circuit
 
-**Note: 1pF Capacitor manually, relevant layers will be added to ensure correct extraction of the capacitor**
+**Note: 20pF Capacitor manually added as relevant layers were not available to ensure correct extraction of the capacitor**
 
 
  <p align="center">
