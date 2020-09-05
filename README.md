@@ -173,7 +173,7 @@ gnuplot> load 'dnl.p'
 ### Layout of Comparator
 
  <p align="center">
-  <img width="500" height="450" src="/Images/L/comparator.PNG">
+  <img width="500" height="450" src="/Images/c1.PNG">
 </p>
 
 ### Layout of R-2R DAC
