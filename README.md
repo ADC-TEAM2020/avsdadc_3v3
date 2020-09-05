@@ -202,6 +202,13 @@ gnuplot> load 'dnl.p'
 
 **Note: Complete Simulation of SAR ADC will be updated soon**
 
+### Simulation of Clock Divider Circuit
+
+<p align="center">
+  <img width="800" height="550" src="/Images/L/Div24.PNG">
+</p>
+
+
 ### Simulation of Comparator Circuit
 
 <p align="center">
