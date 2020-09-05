@@ -161,7 +161,7 @@ gnuplot> load 'dnl.p'
 ### Layout of SAR ADC
 
  <p align="center">
-  <img width="400" height="550" src="/Images/adc.png">
+  <img width="1200" height="450" src="/Images/adc.png">
 </p>
 
 ### Layout of Sample and Hold Circuit
@@ -174,7 +174,7 @@ gnuplot> load 'dnl.p'
 ### Layout of Comparator
 
  <p align="center">
-  <img width="500" height="450" src="/Images/c1.PNG">
+  <img width="500" height="450" src="/Images/c1.png">
 </p>
 
 ### Layout of R-2R DAC
@@ -193,7 +193,7 @@ gnuplot> load 'dnl.p'
 ### Layout of Clock Divider
 
  <p align="center">
-  <img width="500" height="400" src="/Images/cdiv.png">
+  <img width="500" height="400" src="/Images/cddiv.png">
 </p>
 
 
