@@ -64,7 +64,11 @@ The SAR ADC is built using 5 important blocks:
 
 
 
+
+
+
 <img align="left" width="60" height="50" src=/Images/ng_logo.png>
+
 ## About Ngspice 
 Ngspice is an open source mixed-signal circuit simulator.
 
