@@ -37,7 +37,7 @@ The SAR ADC is built using 5 important blocks:
 </p>
 
 
-<img align="left" width="60" height="50" src=/Images/ng_logo.png>
+
 
 ## SAR ADC Performance Parameters 
 
@@ -62,6 +62,9 @@ The SAR ADC is built using 5 important blocks:
 |IDDD|Digital Supply Current||||uA|T=27C, EN=1,FCLK=2MHz|
 |IDDD|Digital Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
 
+
+
+<img align="left" width="60" height="50" src=/Images/ng_logo.png>
 ## About Ngspice 
 Ngspice is an open source mixed-signal circuit simulator.
 
