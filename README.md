@@ -41,7 +41,7 @@ The SAR ADC is built using 5 important blocks:
 
 ## SAR ADC Performance Parameters 
 
-| Parameter| Description| Min | Type | Max | Unit | Condition |
+| Parameter| Description| Min | Typ | Max | Unit | Condition |
 | :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
 |VDDA|Analog Supply Voltage||3.2||V|T=40C to 85C|
 |VDD|Digital Supply Voltage||1.8||V|T=40C to 85C|
