@@ -224,72 +224,16 @@ Digital Code= 1001101101 (621)
 </p>
 
 
-### DNL Errors for Digital Codes [621-660]
-
-**The DNL errors for digital codes (621-660) can be found [here](/Documentation/DNL.pdf)**
-
-Ensure the repository is clone, and enter the following commands in your terminal to plot the DNL curve.
-
-```
-$  sudo apt-get install -y gnuplot
-$  cd SAR_ADC/Simulation/PreLayout_v1.0/DNL/
-$  gnuplot
-```
-```
-gnuplot> load 'dnl.p'
-```
-
- <p align="center">
-  <img width="1200" height="400" src="/Images/dnl2.png">
-</p>
-
-
-
 
 
 ## Post Layout Simulation
 
-**Note: Complete Simulation of SAR ADC will be updated soon**
 
-### Simulation of Clock Divider Circuit
-
-<p align="center">
-  <img width="800" height="550" src="/Images/L/Div24.PNG">
-</p>
-
-
-### Simulation of Comparator Circuit
-
-<p align="center">
-  <img width="800" height="550" src="/Images/L/comp_postLO.PNG">
-</p>
-
-
-### Simulation of Sample and Hold Circuit
-
-**Note: 20pF Capacitor manually added as relevant layers were not available to ensure correct extraction of the capacitor**
-
+### Transfer Function of SAR ADC [INPUT RANGE 0-3.3]
 
  <p align="center">
-  <img width="800" height="550" src="/Images/L/sample2.png">
+  <img width="1200" height="600" src="/Images/post_transfer.png">
 </p>
-
-
-### Simulation Results of R-2R DAC
-
-**Note: Issue of floating capacitors due to Nwell Resistors will be resolved soon**
-
- <p align="center">
-  <img width="800" height="550" src="/Images/L/dac2.png">
-</p>
-
-
-### Simulation Results of SAR Logic
-
- <p align="center">
-  <img width="1000" height="400" src="/Images/L/sar2.png">
-</p>
-
 
 
 
