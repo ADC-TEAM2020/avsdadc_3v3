@@ -108,7 +108,7 @@ The SAR ADC is built using 5 important blocks:
 ### Layout of SAR ADC
 
  <p align="center">
-  <img width="1200" height="600" src="/Images/NEW_C/adc_lay.png">
+  <img width="1200" height="600" src="/Images/NEW_C/adc_lay1.png">
 </p>
 
 ### Layout of Sample and Hold Circuit
