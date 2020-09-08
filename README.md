@@ -24,11 +24,12 @@ Table of contents
       * [Layout of Comparator](#layout-of-comparator)
       * [Layout of R-2R DAC](#layout-of-r-2r-dac)
       * [Layout of SAR Logic](#layout-of-sar-logic)
-   * [About Ngspice](#about-ngspice)
-   * [About Magic](#magic)
    * [Running the Simulation](#running-the-simulation)
    * [Pre-Layout Simulation](#pre-layout-simulation)
    * [Post-Layout Simulation](#post-layout-simulation)
+   * [Open-Source VLSI Tools](#open-source-vlsi-tools)
+       * [About Ngspice](#about-ngspice)
+       * [About Magic](#magic)
    * [Issues | Improvements | Future Work](#issues--improvements--future-work)
    * [Acknowledgments](#acknowledgments)
    * [Contact Information](#contact-information)
@@ -163,19 +164,6 @@ The SAR ADC is built using 5 important blocks:
 
 
 
-<img align="left" width="60" height="50" src=/Images/ng_logo.png>
-
-## About Ngspice 
-Ngspice is an open source mixed-signal circuit simulator.
-
-### Installing Ngspice
-
-#### For Ubuntu
-
-Open your terminal and type the following to install Ngspice
-```
-$  sudo apt-get install -y ngspice
-```
 
 ## Running the Simulation
 
@@ -253,6 +241,21 @@ Digital Code= 1001101101 (621)
 
 
 
+<img align="left" width="60" height="50" src=/Images/ng_logo.png>
+
+## About Ngspice 
+Ngspice is an open source mixed-signal circuit simulator.
+
+### Installing Ngspice
+
+#### For Ubuntu
+
+Open your terminal and type the following to install Ngspice
+```
+$  sudo apt-get install -y ngspice
+```
+
+<img align="left" width="60" height="50" src=/Images/magic.png>
 
 ## Magic
  
