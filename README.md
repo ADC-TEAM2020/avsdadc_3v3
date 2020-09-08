@@ -241,6 +241,9 @@ Digital Code= 1001101101 (621)
 
 
 
+## Open-Source VLSI Tools
+
+
 <img align="left" width="60" height="50" src=/Images/ng_logo.png>
 
 ## About Ngspice 
@@ -255,11 +258,11 @@ Open your terminal and type the following to install Ngspice
 $  sudo apt-get install -y ngspice
 ```
 
-<img align="left" width="60" height="50" src=/Images/magic.png>
+<img align="left" width="70" height="50" src=/Images/magic.png>
 
 ## Magic
  
- [Magic](http://opencircuitdesign.com/magic/) is a VLSI layout tool. 
+ Magic is a VLSI layout tool. 
 
 Type the following to install Magic in Ubuntu
 ```
