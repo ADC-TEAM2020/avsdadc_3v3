@@ -33,10 +33,48 @@ The SAR ADC is built using 5 important blocks:
 ## Block Diagram of the SAR ADC IP
 
  <p align="center">
-  <img width="750" height="450" src="/Images/block.png">
+  <img width="850" height="550" src="/Images/NEW_C/block1.png">
+</p>
+
+## Internal Block Diagram of the SAR ADC IP
+
+ <p align="center">
+  <img width="900" height="550" src="/Images/block.png">
 </p>
 
 
+## Subcircuits within the SAR ADC IP
+
+### Circuit Diagram of Sample & Hold 
+
+ <p align="center">
+  <img width="550" height="450" src="/Images/NEW_C/cir_sam.png">
+</p>
+
+### Circuit Diagram of Clock Divider
+
+ <p align="center">
+  <img width="1000" height="400" src="/Images/NEW_C/cir_clk.png">
+</p>
+
+### Circuit Diagram of Comparator 
+
+ <p align="center">
+  <img width="850" height="550" src="/Images/NEW_C/cir_comp.png">
+</p>
+
+
+### Circuit Diagram of R-2R DAC 
+
+ <p align="center">
+  <img width="1200" height="500" src="/Images/NEW_C/cir_dac.png">
+</p>
+
+### Circuit Diagram of SAR Logic 
+
+ <p align="center">
+  <img width="1200" height="400" src="/Images/NEW_C/cir_sar.png">
+</p>
 
 
 ## SAR ADC Performance Parameters 
