@@ -25,6 +25,7 @@ Table of contents
       * [Layout of R-2R DAC](#layout-of-r-2r-dac)
       * [Layout of SAR Logic](#layout-of-sar-logic)
    * [About Ngspice](#about-ngspice)
+   * [About Magic](#magic)
    * [Running the Simulation](#running-the-simulation)
    * [Pre-Layout Simulation](#pre-layout-simulation)
    * [Post-Layout Simulation](#post-layout-simulation)
@@ -250,6 +251,22 @@ Digital Code= 1001101101 (621)
   <img width="1200" height="600" src="/Images/post_transfer.png">
 </p>
 
+
+
+
+## Magic
+ 
+ [Magic](http://opencircuitdesign.com/magic/) is a VLSI layout tool. 
+
+Type the following to install Magic in Ubuntu
+```
+$  wget http://opencircuitdesign.com/magic/archive/magic-8.3.54.tgz
+$  tar xvfz magic-8.3.54.tgz
+$  cd magic-8.3.54
+$  ./configure
+$  sudo make
+$  sudo make install
+```
 
 
 ## Issues | Improvements | Future Work
