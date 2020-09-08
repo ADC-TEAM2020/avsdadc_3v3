@@ -227,8 +227,13 @@ Digital Code= 1001101101 (621)
   <img width="1000" height="1000" src="/Images/sar1.png">
 </p>
 
+## Pre-Layout DNL Errror
 
+<p align="center">
+  <img width="1000" height="400" src="/Images/pre_dnl1.png">
+</p>
 
+**Max DNL Error = 7.663975155279 LSB**
 
 ## Post Layout Simulation
 
