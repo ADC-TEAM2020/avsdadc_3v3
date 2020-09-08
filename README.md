@@ -43,6 +43,31 @@ The SAR ADC is built using 5 important blocks:
 </p>
 
 
+
+## SAR ADC Performance Parameters 
+
+| Parameter| Description| Min | Typ | Max | Unit | Condition |
+| :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
+|VDDA|Analog Supply Voltage||3.2||V|T=40C to 85C|
+|VDD|Digital Supply Voltage||1.8||V|T=40C to 85C|
+|VREFH|Reference Voltage High|||3.3|V|T=40C to 85C|
+|VREFL|Reference Voltage Low|0|||V|T=40C to 85C|
+|FCLK|Clock Frequency|0.01|1|2|MHz|T=40C to 85C|
+|RES|Resolution||10||Bits|For all above typical conditions (T=27C)|
+|INL|Integral Non-Linearity||||LSB|For all above typical conditions (T=27C)|
+|DNL|Differential Non-Linearity||||LSB|For all above typical conditions (T=27C)|
+|RIN|Analog Input Resistance||||kohm|T=-40C - 85C|
+|CL|Analog Input Capacitance||||pF|VT=-40C - 85C|
+|IVREF|Current through Reference Source||VREF/RIN||A|For all above typical conditions (T=27C)|
+|T1|Start signal duration||0.5||Clock Cycles|T=-40C - 85C|
+|TCONV|Conversion Time||12||Clock Cycles|T=-40C - 85C|
+|T4|Tracking Time||4||us|T=-40C - 85C|
+|IDDA|Analog Supply Current||||uA|T=27C, EN=1,FCLK=2MHz|
+|IDDA|Analog Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
+|IDDD|Digital Supply Current||||uA|T=27C, EN=1,FCLK=2MHz|
+|IDDD|Digital Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
+
+
 ## Subcircuits within the SAR ADC IP
 
 ### Circuit Diagram of Sample & Hold 
@@ -77,29 +102,46 @@ The SAR ADC is built using 5 important blocks:
 </p>
 
 
-## SAR ADC Performance Parameters 
 
-| Parameter| Description| Min | Typ | Max | Unit | Condition |
-| :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
-|VDDA|Analog Supply Voltage||3.2||V|T=40C to 85C|
-|VDD|Digital Supply Voltage||1.8||V|T=40C to 85C|
-|VREFH|Reference Voltage High|||3.3|V|T=40C to 85C|
-|VREFL|Reference Voltage Low|0|||V|T=40C to 85C|
-|FCLK|Clock Frequency|0.01|1|2|MHz|T=40C to 85C|
-|RES|Resolution||10||Bits|For all above typical conditions (T=27C)|
-|INL|Integral Non-Linearity||||LSB|For all above typical conditions (T=27C)|
-|DNL|Differential Non-Linearity||||LSB|For all above typical conditions (T=27C)|
-|RIN|Analog Input Resistance||||kohm|T=-40C - 85C|
-|CL|Analog Input Capacitance||||pF|VT=-40C - 85C|
-|IVREF|Current through Reference Source||VREF/RIN||A|For all above typical conditions (T=27C)|
-|T1|Start signal duration||0.5||Clock Cycles|T=-40C - 85C|
-|TCONV|Conversion Time||12||Clock Cycles|T=-40C - 85C|
-|T4|Tracking Time||4||us|T=-40C - 85C|
-|IDDA|Analog Supply Current||||uA|T=27C, EN=1,FCLK=2MHz|
-|IDDA|Analog Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
-|IDDD|Digital Supply Current||||uA|T=27C, EN=1,FCLK=2MHz|
-|IDDD|Digital Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
+## Layout
 
+### Layout of SAR ADC
+
+ <p align="center">
+  <img width="1200" height="600" src="/Images/NEW_C/adc_lay.png">
+</p>
+
+### Layout of Sample and Hold Circuit
+
+ <p align="center">
+  <img width="400" height="550" src="/Images/L/sample1.png">
+</p>
+
+
+### Layout of Comparator
+
+ <p align="center">
+  <img width="500" height="450" src="/Images/c1.png">
+</p>
+
+### Layout of R-2R DAC
+
+ <p align="center">
+  <img width="800" height="550" src="/Images/L/dac1.png">
+</p>
+
+
+### Layout of SAR Logic
+
+ <p align="center">
+  <img width="1000" height="500" src="/Images/L/sar1.png">
+</p>
+
+### Layout of Clock Divider
+
+ <p align="center">
+  <img width="700" height="500" src="/Images/NEW_C/clk_mag.png">
+</p>
 
 
 
@@ -202,45 +244,7 @@ gnuplot> load 'dnl.p'
 </p>
 
 
-## Layout
 
-### Layout of SAR ADC
-
- <p align="center">
-  <img width="1200" height="600" src="/Images/adc.png">
-</p>
-
-### Layout of Sample and Hold Circuit
-
- <p align="center">
-  <img width="400" height="550" src="/Images/L/sample1.png">
-</p>
-
-
-### Layout of Comparator
-
- <p align="center">
-  <img width="500" height="450" src="/Images/c1.png">
-</p>
-
-### Layout of R-2R DAC
-
- <p align="center">
-  <img width="800" height="550" src="/Images/L/dac1.png">
-</p>
-
-
-### Layout of SAR Logic
-
- <p align="center">
-  <img width="1000" height="500" src="/Images/L/sar1.png">
-</p>
-
-### Layout of Clock Divider
-
- <p align="center">
-  <img width="700" height="500" src="/Images/ccdiv.png">
-</p>
 
 
 ## Post Layout Simulation
