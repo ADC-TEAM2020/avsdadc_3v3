@@ -242,6 +242,9 @@ Digital Code= 1001101101 (621)
   <img width="1000" height="400" src="/Images/pre_inl1.png">
 </p>
 
+**To be recomputed using Best Fit Curve method, accounting for gain and offset error** 
+
+
 ## Post Layout Simulation
 
 
@@ -262,6 +265,8 @@ Digital Code= 1001101101 (621)
 <p align="center">
   <img width="1000" height="400" src="/Images/post_inl1.png">
 </p>
+
+**To be recomputed using Best Fit Curve method, accounting for gain and offset error** 
 
 ## Open-Source VLSI Tools
 
