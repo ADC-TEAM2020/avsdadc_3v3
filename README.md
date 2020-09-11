@@ -300,7 +300,7 @@ $  sudo make install
 ## Issues | Improvements | Future Work
 
 1. Script to automate DNL/INL Calculations completely will be developed.
-2. Layout will be redone following good Mixed Signal Layout practices.
+2. Layout will be redone following recommended Mixed Signal Layout practices.
 3. INL will be recalculated using the Best Fit Curve method, accounting for gain and offset error.
 4. DNL error for lower digital codes needs to be reduced.
 5. Sample & Hold must be optimized to improve hold capabilty.
