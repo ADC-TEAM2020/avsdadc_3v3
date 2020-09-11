@@ -235,16 +235,33 @@ Digital Code= 1001101101 (621)
 
 **Max DNL Error = 7.663975155279 LSB**
 
+
+## Pre-Layout INL Errror
+
+<p align="center">
+  <img width="1000" height="400" src="/Images/pre_inl1.png">
+</p>
+
 ## Post Layout Simulation
 
 
 ### Transfer Function of SAR ADC [INPUT RANGE 0-3.3]
 
  <p align="center">
-  <img width="1200" height="600" src="/Images/post_transfer.png">
+  <img width="1200" height="600" src="/Images/post_tran_1.png">
 </p>
 
+## Post-Layout DNL Errror
 
+<p align="center">
+  <img width="1000" height="400" src="/Images/post_dnl1.png">
+</p>
+
+## Post-Layout INL Errror
+
+<p align="center">
+  <img width="1000" height="400" src="/Images/post_inl1.png">
+</p>
 
 ## Open-Source VLSI Tools
 
