@@ -299,12 +299,15 @@ $  sudo make install
 
 ## Issues | Improvements | Future Work
 
-1. DNL error for lower digital codes needs to be reduced.
-1. Sample & Hold must be optimized to improve hold capabilty.
-2. Comparator design should be modified to reduce Deadband and Offset.
-3. Opamp to be used in DAC must be optimized to give a better transient response and higher Bandwidth.
-4. The number of transistors used in a SAR logic must be reduced. The Non-Redundant Successive Approximation Register architecture, which requires only 'N' D flip flops for N-bit conversion, can be employed for this.
-5. Anti-Aliasing Filter yet to be designed.
+1. Script to automate DNL/INL Calculations completely will be developed.
+2. Layout will be redone following good Mixed Signal Layout practices.
+3. INL will be recalculated using the Best Fit Curve method, accounting for gain and offset error.
+4. DNL error for lower digital codes needs to be reduced.
+5. Sample & Hold must be optimized to improve hold capabilty.
+6. Comparator design should be modified to reduce Deadband and Offset.
+7. Opamp to be used in DAC must be optimized to give a better transient response and higher Bandwidth.
+8. The number of transistors used in a SAR logic must be reduced. The Non-Redundant Successive Approximation Register architecture, which requires only 'N' D flip flops for N-bit conversion, can be employed for this.
+9. Anti-Aliasing Filter yet to be designed.
 
 
 ## Contributors 
