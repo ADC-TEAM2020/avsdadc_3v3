@@ -326,7 +326,7 @@ $  sudo make install
 
 ## Acknowledgments
 
-- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
 - Philipp Gühring, Software Architect, LibreSilicon Assocation
 - Saroj Rout, Associate Professor & Chief Mentor of VLSI Center of Excellence SIT, Bhubaneswar, India
 - Santunu Sarangi, Asst. Professor, SIT, Bhubaneswar, India
@@ -338,5 +338,5 @@ $  sudo make install
 - Ananya Ghorai, Pursuing M.Tech in VLSI Design, IIT(ISM) Dhanbad, ananyaghorai.2012@gmail.com
 - Shalini Priya, M.Tech Embedded System, NIT Jamshedpur priyashalini161@gmail.com
 - Uday Vempalli, Undergraduate Student,Siddhartha Institute Of Technology,udayvempalli99@gmail.com
-- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+- Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 - Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
