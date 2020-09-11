@@ -73,15 +73,15 @@ The SAR ADC is built using 5 important blocks:
 |RES|Resolution||10||Bits|For all above typical conditions (T=27C)|
 |INL|Integral Non-Linearity||||LSB|For all above typical conditions (T=27C)|
 |DNL|Differential Non-Linearity||||LSB|For all above typical conditions (T=27C)|
-|RIN|Analog Input Resistance||||kohm|T=-40C - 85C|
+|RIN|Analog Input Resistance||110||kohm|T=-40C - 85C|
 |CL|Analog Input Capacitance||||pF|VT=-40C - 85C|
-|IVREF|Current through Reference Source||VREF/RIN||A|For all above typical conditions (T=27C)|
+|IVREF|Current through Reference Source||1.06||mA|For all above typical conditions (T=27C)|
 |T1|Start signal duration||0.5||Clock Cycles|T=-40C - 85C|
 |TCONV|Conversion Time||12||Clock Cycles|T=-40C - 85C|
 |T4|Tracking Time||4||us|T=-40C - 85C|
-|IDDA|Analog Supply Current||||uA|T=27C, EN=1,FCLK=2MHz|
+|IDDA|Analog Supply Current||2.97619||mA|T=27C, EN=1,FCLK=2MHz|
 |IDDA|Analog Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
-|IDDD|Digital Supply Current||||uA|T=27C, EN=1,FCLK=2MHz|
+|IDDD|Digital Supply Current||2.833||mA|T=27C, EN=1,FCLK=2MHz|
 |IDDD|Digital Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
 
 
