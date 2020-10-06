@@ -82,7 +82,7 @@ The SAR ADC is built using 5 important blocks:
 |IDDA|Analog Supply Current||2.97619||mA|T=27C, EN=1,FCLK=2MHz|
 |IDDA|Analog Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
 |IDDD|Digital Supply Current||2.833||mA|T=27C, EN=1,FCLK=2MHz|
-|IDDD|Digital Supply Current||||pA|T=27C, EN=0,FCLK=2MHz|
+
 
 
 ## Subcircuits within the SAR ADC IP
