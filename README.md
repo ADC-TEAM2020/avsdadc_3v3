@@ -56,7 +56,7 @@ The SAR ADC is built using 5 important blocks:
 ## Internal Block Diagram of the SAR ADC IP
 
  <p align="center">
-  <img width="900" height="550" src="/Images/block.png">
+  <img width="900" height="550" src="/Images/block1.1.png">
 </p>
 
 
@@ -102,7 +102,7 @@ The SAR ADC is built using 5 important blocks:
 ### Circuit Diagram of Comparator 
 
  <p align="center">
-  <img width="850" height="550" src="/Images/NEW_C/cir_comp.png">
+  <img width="850" height="550" src="/Images/comp1.1.png"1,1>
 </p>
 
 
@@ -125,20 +125,20 @@ The SAR ADC is built using 5 important blocks:
 ### Layout of SAR ADC
 
  <p align="center">
-  <img width="1200" height="600" src="/Images/NEW_C/adc_lay1.png">
+  <img width="1200" height="600" src="/Images/adc1.3.png">
 </p>
 
 ### Layout of Sample and Hold Circuit
 
  <p align="center">
-  <img width="370" height="450" src="/Images/L/sample1.png">
+  <img width="370" height="450" src="/Images/L/sam1.1.png">
 </p>
 
 
 ### Layout of Comparator
 
  <p align="center">
-  <img width="500" height="450" src="/Images/c1.png">
+  <img width="500" height="450" src="/Images/comp1.3.png">
 </p>
 
 ### Layout of R-2R DAC
