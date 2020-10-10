@@ -90,7 +90,7 @@ The SAR ADC is built using 5 important blocks:
 ### Circuit Diagram of Sample & Hold 
 
  <p align="center">
-  <img width="500" height="300" src="/Images/samcir.png">
+  <img width="800" height="500" src="/Images/samcir.png">
 </p>
 
 ### Circuit Diagram of Clock Divider
