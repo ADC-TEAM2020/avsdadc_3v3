@@ -257,7 +257,7 @@ Digital Code= 1001101101 (621)
 ## Post-Layout DNL Errror
 
 <p align="center">
-  <img width="1000" height="400" src="/Images/post_dnl1.png">
+  <img width="1000" height="400" src="/Images/newdnl.png">
 </p>
 
 ## Post-Layout INL Errror
