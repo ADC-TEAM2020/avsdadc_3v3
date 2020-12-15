@@ -71,7 +71,6 @@ The SAR ADC is built using 5 important blocks:
 |VREFL|Reference Voltage Low|0|||V|T=40C to 85C|
 |FCLK|Clock Frequency|0.01|1|2|MHz|T=40C to 85C|
 |RES|Resolution||10||Bits|For all above typical conditions (T=27C)|
-|INL|Integral Non-Linearity||||LSB|For all above typical conditions (T=27C)|
 |DNL|Differential Non-Linearity||-14.9||LSB|For all above typical conditions (T=27C)|
 |RIN|Analog Input Resistance||110||kohm|T=-40C - 85C|
 |CL|Analog Input Capacitance||||pF|VT=-40C - 85C|
