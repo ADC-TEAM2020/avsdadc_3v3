@@ -76,7 +76,7 @@ The SAR ADC is built using 5 important blocks:
 |IVREF|Current through Reference Source||1.06||mA|For all above typical conditions (T=27C)|
 |T1|Start signal duration||0.5||Clock Cycles|T=-40C - 85C|
 |TCONV|Conversion Time||12||Clock Cycles|T=-40C - 85C|
-|T4|Tracking Time||4||us|T=-40C - 85C|
+|T3|Tracking Time||4||us|T=-40C - 85C|
 |IDDA|Analog Supply Current||2.97619||mA|T=27C, EN=1,FCLK=2MHz|
 |IDDD|Digital Supply Current||2.833||mA|T=27C, EN=1,FCLK=2MHz|
 
